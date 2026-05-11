@@ -1,6 +1,8 @@
 ---
 title: "Découverte de Love2D"
 date: 2022-02-25
+section: love2d
+order: 1
 ---
 
 # Love2D c'est quoi ?
@@ -36,4 +38,3 @@ Votre toute nouvelle ouvrage à mettre sur votre commode : [https://love2d.org/w
 Ajoutez simplement la page en favoris, car vous y reviendrez assez régulièrement...
 
 {% include course_pager.md %}
-

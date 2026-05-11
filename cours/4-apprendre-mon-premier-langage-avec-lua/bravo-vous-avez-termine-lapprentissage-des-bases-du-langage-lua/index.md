@@ -1,6 +1,8 @@
 ---
 title: "Bravo ! Vous avez terminé l'apprentissage des bases du langage Lua !"
 date: 2022-02-24
+section: lua
+order: 14
 ---
 
 

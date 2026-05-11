@@ -1,6 +1,8 @@
 ---
 title: "Quels outils pour créer un jeu vidéo ?"
 date: 2022-02-24
+section: introduction
+order: 5
 ---
 
 Nous savons que les jeux vidéos, sont issus de l’outil informatique et que l’on peut y jouer sur différentes plateformes de nos jours très facilement, sur consoles dans son salon ou dans son bureau sur un pc et même à l’extérieur dans le tram sur des consoles portables ou smartphones.
@@ -71,4 +73,3 @@ Ces deux outils différents ont des approches assez opposées grâce à leurs ap
 \- Les **frameworks**, eux ont besoin d'un code de programmation pour fonctionner.
 
 {% include course_pager.md %}
-

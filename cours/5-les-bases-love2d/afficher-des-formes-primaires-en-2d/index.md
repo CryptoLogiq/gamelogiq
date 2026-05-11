@@ -1,6 +1,8 @@
 ---
 title: "Afficher des formes Primaires en 2D"
 date: 2022-02-25
+section: love2d
+order: 4
 ---
 
 # Les Fonctions love.graphics de formes géométriques
@@ -378,4 +380,3 @@ Rendu : **Remarque : L'arcType** est bien facultatif, on note bien que le mode *
 - dessiner des arcs de cercles
 
 {% include course_pager.md %}
-

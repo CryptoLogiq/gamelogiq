@@ -1,6 +1,8 @@
 ---
 title: "7. Création de Jeux"
 date: 2023-04-15
+section: challenges
+order: 1
 ---
 
 ## Challenges : création de Jeux

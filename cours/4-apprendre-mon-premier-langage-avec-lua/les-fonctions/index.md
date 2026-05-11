@@ -1,6 +1,8 @@
 ---
 title: "Les Fonctions"
 date: 2022-02-24
+section: lua
+order: 8
 ---
 
 #### Nous savons créer une variable et qu’une variable possède différents types.
@@ -262,4 +264,3 @@ sortie console :
 De cette manière la variable est bien modifiée !
 
 {% include course_pager.md %}
-

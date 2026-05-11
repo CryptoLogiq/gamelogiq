@@ -1,6 +1,8 @@
 ---
 title: "Les Boucles (For)"
 date: 2022-02-24
+section: lua
+order: 6
 ---
 
 ### Les boucles répétitives, qu’est-ce que c’est ?
@@ -413,4 +415,3 @@ Héro possède désormais 0 pièces et 5 vies. Ainsi que 1 étoile.
 **Rendez-vous pour la suite au prochain cours =)**
 
 {% include course_pager.md %}
-

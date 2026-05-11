@@ -1,6 +1,8 @@
 ---
 title: "Bonus 2 : Les guides de styles Lua"
 date: 2022-02-24
+section: lua
+order: 16
 ---
 
 Vos variables peuvent avoir besoin des mêmes données, et donc d’avoir potentiellement les mêmes noms !

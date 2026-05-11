@@ -1,6 +1,8 @@
 ---
 title: "Bonus 1 : Résumé des bases en Lua"
 date: 2022-02-24
+section: lua
+order: 15
 ---
 
 ###  L'essentiel des bases

@@ -1,6 +1,8 @@
 ---
 title: "Les origines du jeu vidéo"
 date: 2022-02-24
+section: introduction
+order: 3
 ---
 
 ![](images/Perso_cours_mini_100pxheight.png)

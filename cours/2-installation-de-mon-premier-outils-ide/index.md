@@ -1,6 +1,8 @@
 ---
 title: "2. Installation de mon premier Outils (IDE)"
 date: 2022-02-24
+section: installation
+order: 1
 ---
 
 # Quels outils pour programmer en LUA ?

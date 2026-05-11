@@ -1,6 +1,8 @@
 ---
 title: "Le parcours que l’on va suivre !"
 date: 2022-02-24
+section: introduction
+order: 4
 ---
 
 ![](../../../images/Perso_cours_mini_100pxheight.png)

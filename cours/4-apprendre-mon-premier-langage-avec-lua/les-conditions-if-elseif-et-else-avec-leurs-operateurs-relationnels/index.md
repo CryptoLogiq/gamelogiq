@@ -1,6 +1,8 @@
 ---
 title: "Les conditions IF, ELSEIF et ELSE avec leurs Opérateurs Relationnels"
 date: 2022-02-24
+section: lua
+order: 4
 ---
 
 ##  Les Conditions c'est quoi ?
@@ -557,4 +559,3 @@ Toujours dans l’exemple d’un jeu, lorsque le Héros meurt, son total de vie 
 **Maintenant, donnons-nous rendez-vous au prochain cours sur les Arguments de Fonction.**
 
 {% include course_pager.md %}
-

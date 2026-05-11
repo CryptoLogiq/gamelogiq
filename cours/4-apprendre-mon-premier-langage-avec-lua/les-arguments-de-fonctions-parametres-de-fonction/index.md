@@ -1,6 +1,8 @@
 ---
 title: "Les Arguments de fonctions (paramètres de fonction)"
 date: 2022-02-24
+section: lua
+order: 9
 ---
 
 Maintenant que vous savez créer une fonction et lui donner des instructions dans son corps.

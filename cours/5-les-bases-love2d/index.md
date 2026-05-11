@@ -1,6 +1,8 @@
 ---
 title: "5. Mon Premier Framework avec Lua et Love2D (Les bases Love2D)"
 date: 2022-02-25
+section: love2d
+order: 0
 ---
 
 ![](images/mon_premier_framework_lua_love2d.png)
@@ -16,9 +18,6 @@ Love2D est alors capable d’afficher du texte, de charger des polices, de charg
 
 Liste des chapitres de ce cours :
 
-1. [Découverte de Love2D](decouverte-de-love2d/)
-2. [Installation Love2D et paramétrage de L'IDE (ZeroBrane)](installation-love2d-et-parametrage-zerobrane/)
-3. [Afficher un texte avec Love2D](afficher-un-texte-avec-love2d/)
-4. [Afficher des formes Primaires en 2D](afficher-des-formes-primaires-en-2d/)
+{% include subpages.md section="love2d" %}
 
 {% include course_pager.md %}

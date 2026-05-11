@@ -1,6 +1,8 @@
 ---
 title: "6. Les Concepts Essentiels"
 date: 2022-02-25
+section: concepts
+order: 1
 ---
 
 Les Concepts sont essentiels pour maîtriser les principes utilisés dans la conception de Jeux Vidéos.

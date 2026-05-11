@@ -1,6 +1,8 @@
 ---
 title: "Les références (pointeurs)"
 date: 2022-02-24
+section: lua
+order: 13
 ---
 
 Les références appelés aussi pointeurs, représentent les adresses mémoires des tables Lua.

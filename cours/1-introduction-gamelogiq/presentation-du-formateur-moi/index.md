@@ -1,6 +1,8 @@
 ---
 title: "Présentation du formateur (Moi)"
 date: 2022-02-24
+section: introduction
+order: 1
 ---
 
 #### Mon propre parcours
@@ -23,4 +25,3 @@ Je vous partage le condensé de tout ce que j’ai appris et que j’apprends en
 | --- |
 
 {% include course_pager.md %}
-

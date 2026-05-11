@@ -1,6 +1,8 @@
 ---
 title: "Installation Love2D et paramétrage de L'IDE (ZeroBrane)"
 date: 2022-02-25
+section: love2d
+order: 2
 ---
 
 ## Installer Love2D
@@ -49,4 +51,3 @@ Si vous exécutez un de vos anciens projet et vous devriez apercevoir une fenêt
 Après cela, nous verrons comment afficher du texte à l'écran, et il est important de bien comprendre l'utilisation de Love2D…
 
 {% include course_pager.md %}
-

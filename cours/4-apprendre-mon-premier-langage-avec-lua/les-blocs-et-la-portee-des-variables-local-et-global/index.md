@@ -1,6 +1,8 @@
 ---
 title: "Les Blocs et la Portée des variables (Local et Global)"
 date: 2022-02-24
+section: lua
+order: 7
 ---
 
 ## Comprendre les Blocs et leurs portés
@@ -125,4 +127,3 @@ Les variables locales sont donc à prioriser la plupart du temps. Déjà, car on
 **Fin de ce chapitre, passons à la suite !**
 
 {% include course_pager.md %}
-

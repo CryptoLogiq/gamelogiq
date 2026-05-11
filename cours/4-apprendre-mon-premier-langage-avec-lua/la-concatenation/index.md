@@ -1,6 +1,8 @@
 ---
 title: "La Concaténation"
 date: 2022-02-24
+section: lua
+order: 3
 ---
 
 ###  Concaténation description :

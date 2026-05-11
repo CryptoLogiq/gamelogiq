@@ -1,6 +1,8 @@
 ---
 title: "Le Return"
 date: 2022-02-24
+section: lua
+order: 10
 ---
 
 Maintenant que nous savons ce qu'est une Fonction() ! Abordons une solution pour effectuer le calcul d’une attaque et de retourner un résultat à la variable appelant la fonction Attaque()
@@ -166,4 +168,3 @@ Plutôt cool non ? =D
 **Je vous attends au prochain cours !**
 
 {% include course_pager.md %}
-

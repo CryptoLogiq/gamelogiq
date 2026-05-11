@@ -1,6 +1,8 @@
 ---
 title: "Quels outils installer ?"
 date: 2022-02-24
+section: introduction
+order: 7
 ---
 
 Pour programmer, nous aurons besoin d’un éditeur de texte pour taper votre code avec un compilateur et d’un interpréteur pour exécuter notre code.
@@ -42,4 +44,3 @@ Une fois paramétré avec le thème sombre :
 ![](images/zerobrane_sombre.png)
 
 {% include course_pager.md %}
-

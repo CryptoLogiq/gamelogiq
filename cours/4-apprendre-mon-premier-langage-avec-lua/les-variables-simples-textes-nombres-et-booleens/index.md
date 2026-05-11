@@ -1,6 +1,8 @@
 ---
 title: "Les Variables Simples (Textes, Nombres et Booléens)"
 date: 2022-02-24
+section: lua
+order: 2
 ---
 
 Avant d’aborder les variables je souhaiterais vous parler des commentaires.
@@ -617,4 +619,3 @@ C’est pratique, mais ça peut facilement vous induire en erreur alors attentio
 **Maintenant, rendez-vous au prochain chapitre où nous verrons comment mettre bout à bout plusieurs chaînes de caractères (des string) dans une variable.**
 
 {% include course_pager.md %}
-

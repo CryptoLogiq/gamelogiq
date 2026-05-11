@@ -1,6 +1,8 @@
 ---
 title: "IMPORTANT à Lire avant de commencer !"
 date: 2022-02-24
+section: introduction
+order: 8
 ---
 
 IMPORTANT !

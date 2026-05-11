@@ -1,6 +1,8 @@
 ---
 title: "Print des calculs dans la console"
 date: 2022-02-24
+section: lua
+order: 1
 ---
 
 #### Faire des calculs !
@@ -129,4 +131,3 @@ Félicitations ! Cette première introduction au langage LUA est maintenant ter
 **Je vous attends pour la suite sur les bases de LUA où nous aborderons ensemble, point par point l’essentiel pour simuler un vrai petit jeu dans la console !**
 
 {% include course_pager.md %}
-

@@ -1,6 +1,8 @@
 ---
 title: "Les boucles (While) et (Repeat Until)"
 date: 2022-02-24
+section: lua
+order: 5
 ---
 
 Si nous ne connaissons pas le nombre de fois qu’une boucle doit se répéter nous utiliserons alors les boucles **WHILE** ou **REPEAT** qui s'exécutent avec un test de condition.
@@ -193,4 +195,3 @@ Donc à utiliser avec précaution :D
 **Rendez-vous au cours suivant !**
 
 {% include course_pager.md %}
-

@@ -1,6 +1,8 @@
 ---
 title: "Afficher un texte avec Love2d"
 date: 2022-02-25
+section: love2d
+order: 3
 ---
 
 Pour afficher du texte, nous devons utiliser `love.graphics.print()`
@@ -62,4 +64,3 @@ Plus d’infos : [https://love2d.org/wiki/love.graphics.print](https://www.googl
 Nous pouvons remarquer que l'on peut mettre également en paramètres les positions X et Y.
 
 {% include course_pager.md %}
-

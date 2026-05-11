@@ -1,6 +1,8 @@
 ---
 title: "Comparaisons entre les Moteurs et les Frameworks :"
 date: 2022-02-24
+section: introduction
+order: 6
 ---
 
 Tout d’abord les plus connus et reconnus dans le milieu ce sont les moteurs tel que Unity, Unreal Engine, Godot, Game Maker et d’autres…
@@ -77,4 +79,3 @@ Sur GameLogic.dev notre vision de conception d’un jeu avec vous, c’est d’a
 C’est pourquoi nous commencerons donc par l’apprentissage d’un langage simple, suivi d’un framework. Pour vous donner des armes contre ces géants les moteurs et vous alors vous serez maître de ces outils et non l’inverse ! Vous serez libre de choisir de les utiliser ou non...
 
 {% include course_pager.md %}
-

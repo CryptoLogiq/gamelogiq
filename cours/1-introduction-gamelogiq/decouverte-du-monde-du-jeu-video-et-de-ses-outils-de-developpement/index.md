@@ -1,6 +1,8 @@
 ---
 title: "1. Découverte du Monde du Jeu Vidéo"
 date: 2022-02-24
+section: introduction
+order: 2
 ---
 
 # Introduction

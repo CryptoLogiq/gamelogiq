@@ -1,0 +1,14 @@
+- key: introduction
+  title: "Introduction GameLogiq"
+- key: installation
+  title: "Installation de l IDE"
+- key: mathematiques
+  title: "Mathématiques"
+- key: lua
+  title: "Bases Lua"
+- key: love2d
+  title: "Bases Love2D"
+- key: concepts
+  title: "Concepts essentiels"
+- key: challenges
+  title: "Création de jeux"

@@ -1,6 +1,8 @@
 ---
 title: "3. Les mathématiques (les bases en gamedev)"
 date: 2022-02-24
+section: mathematiques
+order: 1
 ---
 
 Ce module a pour but de vous aider à apprendre/réviser des notions de mathématiques que l'on aborde généralement en Classe de 5ᵉ et 4ᵉ.

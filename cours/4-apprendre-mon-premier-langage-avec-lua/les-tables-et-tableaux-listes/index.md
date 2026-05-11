@@ -1,6 +1,8 @@
 ---
 title: "Les Tables et Tableaux (listes)"
 date: 2022-02-24
+section: lua
+order: 12
 ---
 
 Tout d’abord au début des premiers chapitres nous avons vu les Variables Simples.
@@ -817,4 +819,3 @@ Cela démontre bien que le déplacement des index, peut être effectuer avec tab
 **Fin de ce chapitre sur les tables et tableaux !**
 
 {% include course_pager.md %}
-
