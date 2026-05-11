@@ -11,6 +11,5 @@ Ils sont classés selon la difficulté de réalisation de **facile**, **intermé
 
 
 
-\[subpages\]
-
+Les challenges seront ajoutés ici au fur et à mesure.
 
