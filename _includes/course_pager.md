@@ -22,14 +22,20 @@
 
 ---
 
+<nav class="course-pager" aria-label="Navigation entre les cours">
+  <div class="course-pager__row">
 {% if previous_page %}
-[← Précédent : {{ previous_page.title }}]({{ previous_page.url | relative_url }})
+    <a class="course-pager__button course-pager__button--prev" href="{{ previous_page.url | relative_url }}">← Précédent</a>
+{% else %}
+    <span class="course-pager__button course-pager__button--disabled" aria-disabled="true">← Précédent</span>
 {% endif %}
-
-[Retour à la liste des cours]({{ "/cours/" | relative_url }})
-
 {% if next_page %}
-[Suivant : {{ next_page.title }} →]({{ next_page.url | relative_url }})
+    <a class="course-pager__button course-pager__button--next" href="{{ next_page.url | relative_url }}">Suivant →</a>
+{% else %}
+    <span class="course-pager__button course-pager__button--disabled" aria-disabled="true">Suivant →</span>
 {% endif %}
+  </div>
+  <a class="course-pager__home" href="{{ "/" | relative_url }}">Retour à l'accueil</a>
+</nav>
 
 {% endif %}
