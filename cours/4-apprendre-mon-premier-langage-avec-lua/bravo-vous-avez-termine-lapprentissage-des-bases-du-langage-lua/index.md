@@ -24,7 +24,7 @@ Nous commencerons progressivement, avec un code peu structuré, mais lisible pou
   
 Il y a un document de récapitulatif de tout ce que l’on vient de voir avec quelques ajouts et termes plus techniques, si cela vous intéresse c’est dans :
 
-[Bonus Lua : Résumé des bases](https://gamelogiq.dev/liste-des-differents-cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/bonus-1-resume-des-bases-en-lua/ "Bonus Lua : Résumé des bases")
+[Bonus Lua : Résumé des bases](../bonus-1-resume-des-bases-en-lua/)
 
 ## La programmation et les styles
 
@@ -65,4 +65,4 @@ Comment savoir écrire son code proprement !
 - Suivez les Guides de styles (facultatif) :
 
   
-[Bonus Lua : Les guides de styles](https://gamelogiq.dev/liste-des-differents-cours/4-apprendre-mon-premier-langage-avec-lua-les-bases-lua/bonus-2-les-guides-de-styles-lua/ "Bonus Lua : Les guides de styles")
+[Bonus Lua : Les guides de styles](../bonus-2-les-guides-de-styles-lua/)

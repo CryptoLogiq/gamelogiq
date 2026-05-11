@@ -3,7 +3,7 @@ title: "Le parcours que l’on va suivre !"
 date: 2022-02-24
 ---
 
-![](images/Happy_Color_transparent_100px.png)
+![](../../../images/Perso_cours_mini_100pxheight.png)
 
 J'ai déterminé pour vous un apprentissage qui suivra l’évolution du jeu vidéo depuis sa création jusqu'à notre époque.
 
@@ -46,5 +46,3 @@ Il a été créé par Luiz Henrique de Figueiredo, Roberto Ierusalimschy (en) et
 Note : C’est un interpréteur du langage C ANSI.
 
 (facultatif) voir la page Wikipédia pour plus d'information : [https://fr.wikipedia.org/wiki/Lua](https://fr.wikipedia.org/wiki/Lua)
-
-

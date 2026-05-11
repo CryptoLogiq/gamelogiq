@@ -5,7 +5,7 @@ date: 2022-02-24
 
 IMPORTANT !
 
-![](images/Perso_cours_mini_100pxheight.png)
+![](../les-origines-du-jeu-video/images/Perso_cours_mini_100pxheight.png)
 
 Laisser le temps au temps !  
 Vous devez apprendre en douceur… Vous devez bien assimiler ce que l’on vois ensemble, car c’est primordial avant d’aller plus loin… N'avalez pas tout le contenu trop vite, sans bien l'assimiler…
@@ -83,7 +83,7 @@ Le lien vers notre serveur discord de la communauté : [**https://discord.gg/nRt
 
 Ceci cloture, ce premier cours d'introduction que j'enseigne sur ce site web.
 
-**[Vous pouvez retourner à la liste des cours.](https://gamelogiq.dev/?page_id=18 "Vous pouvez retournez à la liste des cours.")**
+**[Vous pouvez retourner à la liste des cours.](../../)**
 
 **Ou alors commencez le prochain cours sur l’installation et la prise en main de l’IDE ZeroBrane :**  
-[![](images/Mon-premier_Outil_IDE_Lua.png)](https://gamelogiq.dev/?page_id=267 "￼")
+[![](images/Mon-premier_Outil_IDE_Lua.png)](../../2-installation-de-mon-premier-outils-ide/)

@@ -58,4 +58,4 @@ Si vous pouvez vous relire et comprendre facilement ce que vous avez fait, c’e
 
 
 
-[Commencer le cours](https://gamelogiq.dev/liste-des-differents-cours/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/les-origines-du-jeu-video/)
+[Commencer le cours](../les-origines-du-jeu-video/)

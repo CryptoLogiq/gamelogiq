@@ -11,27 +11,27 @@ Respecter bien l'ordre ci-dessous pour aborder les différents concepts, car ils
 
 Les Concepts essentiels du Jeu Vidéo seront abordés avec Love2D (Lua) car c'est un langage facilement transposable (que l'on peut appliquer sur d'autres langages).
 
-## [La GameLoop](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/la-gameloop/ "La GameLoop")
+## La GameLoop
 
-[![](images/la_gameloop.png)](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/la-gameloop/ "La GameLoop")
-
-
-
-## [Les formes simples, la logique Objet et le Delta Time](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/les-formes-simples-la-logique-objet-et-le-deltatime/ " Les formes simples, la logique Objet et le DeltaTime")
-
-[![](images/les_formes_simples_deltatime.png)](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/les-formes-simples-la-logique-objet-et-le-deltatime/)
+![](images/la_gameloop.png)
 
 
 
-## [Les Images et Les Angles](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/concept-essentiel-les-images-et-les-angles/ "Les Images et Les Angles")
+## Les formes simples, la logique Objet et le Delta Time
 
-[![](images/Les_images_et_Les_angles.png)](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/concept-essentiel-les-images-et-les-angles/)
+![](images/les_formes_simples_deltatime.png)
 
 
 
-## [Tableau à 2 dimensions (2D)](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/tableau-a-2-dimensions-2d/ "Tableau à 2 dimensions (2D)")
+## Les Images et Les Angles
 
-[![](images/Concept_tableaux_2D.png)](https://gamelogiq.dev/liste-des-differents-cours/6-les-concepts-essentiels/tableau-a-2-dimensions-2d/)
+![](images/Les_images_et_Les_angles.png)
+
+
+
+## Tableau à 2 dimensions (2D)
+
+![](images/Concept_tableaux_2D.png)
 
 
 

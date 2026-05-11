@@ -60,7 +60,7 @@ Alors comment le rendre simple ? Pourquoi doit-il être rejouable ? Comment peut
 
 - La simplicité
 
-![](images/Think_Color_transparent_150px-120x300.png)
+![](../quels-outils-pour-creer-un-jeu-video/images/Think_Color_trans_100px.png)
 
 Un jeu se doit d’être simple à comprendre ou être simple à prendre en main. Que ce soit son gameplay (la façon d’y jouer) ou bien le but du jeu.  
 Il est subtil parfois de mélanger les deux, mais cela demande soit de l’imagination, soit de l’expérience.
@@ -103,5 +103,4 @@ Ainsi qu’un manga portant quasiment le même nom, même si cela parle beaucoup
 \- Les magazines en lignes :
 
  [Guide\_Metiers\_NUMERIQUES\_2019\_V3.pdf](https://drive.google.com/file/d/19hako1K6kdHjVOJqghzvIkALLTYWpb-X/view)
-
 
