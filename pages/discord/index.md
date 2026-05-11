@@ -60,3 +60,7 @@ Comme son nom l’indique, la capture peut être enregistrée au format gif.
 Mais il gère aussi les formats vidéo tels que mkv, mp4 et d'autres.
 
 Réglage possible du nombre d'images par seconde à capturer jusqu'à 60.
+
+---
+
+[Retour à l'accueil](../../)

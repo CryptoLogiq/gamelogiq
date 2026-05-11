@@ -41,3 +41,7 @@ Contiens : Discord.
 
 Communauté de Gamedev et tout ce qui s'en approche de près ou de loin, aides, partages, projets, ressources utiles, recrutements, jams, etc.  
 [Leur Discord](https://disboard.org/fr/server/join/975070356220043334)
+
+---
+
+[Retour à l'accueil](../../)
