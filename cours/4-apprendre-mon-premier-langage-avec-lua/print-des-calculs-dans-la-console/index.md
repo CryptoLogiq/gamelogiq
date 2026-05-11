@@ -13,8 +13,7 @@ Tels que des additions, soustractions, multiplications et divisions, car la fonc
 
 
 
-|  **print()** sert à afficher du texte, mais il sait aussi afficher des nombres. |
-| --- |
+> **print()** sert à afficher du texte, mais il sait aussi afficher des nombres.
 
 ![](images/print_number-1024x351.png)
 
@@ -30,54 +29,57 @@ Alors comment faire ? Pendant l'exécution du programme lorsqu'il arrive sur une
 
 Les calculs sont exécutés par le biais des opérateurs mathématiques suivants :
 
-| \+ - \* / |
-| --- |
+`+`, `-`, `*`, `/`
 
 **Important !** print() ne sert pas à calculer, il convertit  seulement les paramètres qu’on lui donne en texte. C'est l'interpréteur qui fait le calcul à la lecture du code.
 
 ##### Addition :
 
-```
+```lua
 print(1 + 1)
 ```
 
 Sortie Console :
 
-| 2 |
-| --- |
+```text
+2
+```
 
 ##### Soustraction :
 
-```
+```lua
 print(4 - 1)
 ```
 
 Sortie Console :
 
-| 3 |
-| --- |
+```text
+3
+```
 
 ##### Multiplication :
 
-```
+```lua
 print(2 * 2)
 ```
 
 Sortie Console :
 
-| 4 |
-| --- |
+```text
+4
+```
 
 ##### Division :
 
-```
+```lua
 print(10 / 2)
 ```
 
 Sortie Console :
 
-| 5 |
-| --- |
+```text
+5
+```
 
 Maintenant que nous savons imprimer du texte, des nombres et des résultats de calculs simples…
 
@@ -87,8 +89,8 @@ Pourquoi ne pas simuler un petit jeu en texte ?!
 
 #### EXERCICE TP :
 
-| \- Faites une petite introduction d’un jeu de course en texte. - Simulez le top départ avec des calculs simples pour afficher (4, 3, 2, 1, Go !) faites cela en vous aidant avec  +  -  \*  /  (symboles arithmétiques) |
-| --- |
+> - Faites une petite introduction d’un jeu de course en texte.
+> - Simulez le top départ avec des calculs simples pour afficher (4, 3, 2, 1, Go !) en vous aidant avec `+`, `-`, `*`, `/`.
 
 SOLUTION ?... Vous avez essayé avant quand même… ?
 
@@ -110,7 +112,7 @@ Ma solution que je vous propose :
 
 Si vous n’avez pas réussi voici le code source :
 
-```
+```lua
 print("#####################################################")
 print("## Les voitures sont sur la ligne de départ !      ##")
 print("## Les moteurs rugissent... Les pilotes aussi !    ##")
