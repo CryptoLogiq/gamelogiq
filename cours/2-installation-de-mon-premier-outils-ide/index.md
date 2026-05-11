@@ -200,4 +200,4 @@ Vous trouvez les numéros de lignes comme ceci dans l'éditeur de code :
 
 Bravo ! On a terminé, vous pouvez passer à la suite ;)
 
-**[Vous pouvez retourner à la liste des cours.](https://gamelogiq.dev/?page_id=18 "Vous pouvez retournez à la liste des cours.")**
+**[Vous pouvez retourner à la liste des cours.](../)**

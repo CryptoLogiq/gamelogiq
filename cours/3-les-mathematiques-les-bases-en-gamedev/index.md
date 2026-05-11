@@ -77,4 +77,4 @@ La programmation de Jeux vidéo utilise des notions de mathématiques modernes, 
 
 - [Angles](https://www.maths-et-tiques.fr/index.php/cours-maths/cours-de-maths-niveau-sixieme#12)
 
-**[Vous pouvez retourner à la liste des cours.](https://gamelogiq.dev/?page_id=18)**
+**[Vous pouvez retourner à la liste des cours.](../)**
