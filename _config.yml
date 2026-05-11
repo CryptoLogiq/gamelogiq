@@ -14,3 +14,7 @@ relative_links:
 
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
