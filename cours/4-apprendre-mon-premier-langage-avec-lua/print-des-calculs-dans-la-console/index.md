@@ -11,9 +11,9 @@ Bien maintenant, nous allons faire un petit peu de math (niveau primaire) !
 
 Tels que des additions, soustractions, multiplications et divisions, car la fonction print() permet aussi d’afficher des nombres.
 
-
-
-> **print()** sert à afficher du texte, mais il sait aussi afficher des nombres.
+```text
+print() -- sert à afficher du texte, mais il sait aussi afficher des nombres.
+```
 
 ![](images/print_number-1024x351.png)
 
