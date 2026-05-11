@@ -412,4 +412,5 @@ Héro possède désormais 0 pièces et 5 vies. Ainsi que 1 étoile.
 
 **Rendez-vous pour la suite au prochain cours =)**
 
+{% include course_pager.md %}
 

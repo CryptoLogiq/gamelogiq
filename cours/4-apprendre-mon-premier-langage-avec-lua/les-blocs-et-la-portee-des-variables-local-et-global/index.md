@@ -124,4 +124,5 @@ Les variables locales sont donc à prioriser la plupart du temps. Déjà, car on
 
 **Fin de ce chapitre, passons à la suite !**
 
+{% include course_pager.md %}
 

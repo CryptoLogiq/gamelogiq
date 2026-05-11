@@ -87,3 +87,5 @@ Ceci cloture, ce premier cours d'introduction que j'enseigne sur ce site web.
 
 **Ou alors commencez le prochain cours sur l’installation et la prise en main de l’IDE ZeroBrane :**  
 [![](images/Mon-premier_Outil_IDE_Lua.png)](../../2-installation-de-mon-premier-outils-ide/)
+
+{% include course_pager.md %}

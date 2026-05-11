@@ -13,3 +13,4 @@ Ils sont classés selon la difficulté de réalisation de **facile**, **intermé
 
 Les challenges seront ajoutés ici au fur et à mesure.
 
+{% include course_pager.md %}

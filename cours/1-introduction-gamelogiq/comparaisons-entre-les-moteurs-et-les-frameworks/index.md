@@ -76,4 +76,5 @@ Sur GameLogic.dev notre vision de conception d’un jeu avec vous, c’est d’a
 
 C’est pourquoi nous commencerons donc par l’apprentissage d’un langage simple, suivi d’un framework. Pour vous donner des armes contre ces géants les moteurs et vous alors vous serez maître de ces outils et non l’inverse ! Vous serez libre de choisir de les utiliser ou non...
 
+{% include course_pager.md %}
 

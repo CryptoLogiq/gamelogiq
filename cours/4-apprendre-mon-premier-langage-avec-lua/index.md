@@ -25,3 +25,5 @@ Voici la liste des cours a suivre dans l'ordre :
 14. [Bravo ! Vous avez terminé l'apprentissage des bases du langage Lua !](bravo-vous-avez-termine-lapprentissage-des-bases-du-langage-lua/)
 15. [Bonus 1 : Résumé des bases en Lua](bonus-1-resume-des-bases-en-lua/)
 16. [Bonus 2 : Les guides de styles Lua](bonus-2-les-guides-de-styles-lua/)
+
+{% include course_pager.md %}

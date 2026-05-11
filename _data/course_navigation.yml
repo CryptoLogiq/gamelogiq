@@ -1,0 +1,102 @@
+- path: cours/1-introduction-gamelogiq/presentation-du-formateur-moi/index.md
+  title: "Présentation du formateur (Moi)"
+  url: /cours/1-introduction-gamelogiq/presentation-du-formateur-moi/
+- path: cours/1-introduction-gamelogiq/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/index.md
+  title: "1. Découverte du Monde du Jeu Vidéo"
+  url: /cours/1-introduction-gamelogiq/decouverte-du-monde-du-jeu-video-et-de-ses-outils-de-developpement/
+- path: cours/1-introduction-gamelogiq/les-origines-du-jeu-video/index.md
+  title: "Les origines du jeu vidéo"
+  url: /cours/1-introduction-gamelogiq/les-origines-du-jeu-video/
+- path: cours/1-introduction-gamelogiq/le-parcours-que-lon-va-suivre/index.md
+  title: "Le parcours que l’on va suivre !"
+  url: /cours/1-introduction-gamelogiq/le-parcours-que-lon-va-suivre/
+- path: cours/1-introduction-gamelogiq/quels-outils-pour-creer-un-jeu-video/index.md
+  title: "Quels outils pour créer un jeu vidéo ?"
+  url: /cours/1-introduction-gamelogiq/quels-outils-pour-creer-un-jeu-video/
+- path: cours/1-introduction-gamelogiq/comparaisons-entre-les-moteurs-et-les-frameworks/index.md
+  title: "Comparaisons entre les Moteurs et les Frameworks"
+  url: /cours/1-introduction-gamelogiq/comparaisons-entre-les-moteurs-et-les-frameworks/
+- path: cours/1-introduction-gamelogiq/quels-outils-installer/index.md
+  title: "Quels outils installer ?"
+  url: /cours/1-introduction-gamelogiq/quels-outils-installer/
+- path: cours/1-introduction-gamelogiq/important-a-lire-avant-de-commencer/index.md
+  title: "IMPORTANT à Lire avant de commencer !"
+  url: /cours/1-introduction-gamelogiq/important-a-lire-avant-de-commencer/
+- path: cours/2-installation-de-mon-premier-outils-ide/index.md
+  title: "2. Installation de mon premier Outils (IDE)"
+  url: /cours/2-installation-de-mon-premier-outils-ide/
+- path: cours/3-les-mathematiques-les-bases-en-gamedev/index.md
+  title: "3. Les mathématiques (les bases en gamedev)"
+  url: /cours/3-les-mathematiques-les-bases-en-gamedev/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/index.md
+  title: "4. Apprendre mon premier langage avec Lua (Les bases Lua)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/print-des-calculs-dans-la-console/index.md
+  title: "Print des calculs dans la console"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/print-des-calculs-dans-la-console/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-variables-simples-textes-nombres-et-booleens/index.md
+  title: "Les Variables Simples (Textes, Nombres et Booléens)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-variables-simples-textes-nombres-et-booleens/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/la-concatenation/index.md
+  title: "La Concaténation"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/la-concatenation/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-conditions-if-elseif-et-else-avec-leurs-operateurs-relationnels/index.md
+  title: "Les conditions IF, ELSEIF et ELSE avec leurs Opérateurs Relationnels"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-conditions-if-elseif-et-else-avec-leurs-operateurs-relationnels/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-boucles-while-et-repeat-until/index.md
+  title: "Les boucles (While) et (Repeat Until)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-boucles-while-et-repeat-until/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-boucles-for/index.md
+  title: "Les Boucles (For)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-boucles-for/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-blocs-et-la-portee-des-variables-local-et-global/index.md
+  title: "Les Blocs et la Portée des variables (Local et Global)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-blocs-et-la-portee-des-variables-local-et-global/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-fonctions/index.md
+  title: "Les Fonctions"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-fonctions/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-arguments-de-fonctions-parametres-de-fonction/index.md
+  title: "Les Arguments de fonctions (paramètres de fonction)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-arguments-de-fonctions-parametres-de-fonction/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/le-return/index.md
+  title: "Le Return"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/le-return/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/break-et-return-bien-comprendre-la-difference/index.md
+  title: "Break et Return (Bien comprendre la différence !)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/break-et-return-bien-comprendre-la-difference/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-tables-et-tableaux-listes/index.md
+  title: "Les Tables et Tableaux (listes)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-tables-et-tableaux-listes/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/les-references-pointeurs/index.md
+  title: "Les références (pointeurs)"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/les-references-pointeurs/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/bravo-vous-avez-termine-lapprentissage-des-bases-du-langage-lua/index.md
+  title: "Bravo ! Vous avez terminé l'apprentissage des bases du langage Lua !"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/bravo-vous-avez-termine-lapprentissage-des-bases-du-langage-lua/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/bonus-1-resume-des-bases-en-lua/index.md
+  title: "Bonus 1 : Résumé des bases en Lua"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/bonus-1-resume-des-bases-en-lua/
+- path: cours/4-apprendre-mon-premier-langage-avec-lua/bonus-2-les-guides-de-styles-lua/index.md
+  title: "Bonus 2 : Les guides de styles Lua"
+  url: /cours/4-apprendre-mon-premier-langage-avec-lua/bonus-2-les-guides-de-styles-lua/
+- path: cours/5-les-bases-love2d/index.md
+  title: "5. Mon Premier Framework avec Lua et Love2D (Les bases Love2D)"
+  url: /cours/5-les-bases-love2d/
+- path: cours/5-les-bases-love2d/decouverte-de-love2d/index.md
+  title: "Découverte de Love2D"
+  url: /cours/5-les-bases-love2d/decouverte-de-love2d/
+- path: cours/5-les-bases-love2d/installation-love2d-et-parametrage-zerobrane/index.md
+  title: "Installation Love2D et paramétrage de L'IDE (ZeroBrane)"
+  url: /cours/5-les-bases-love2d/installation-love2d-et-parametrage-zerobrane/
+- path: cours/5-les-bases-love2d/afficher-un-texte-avec-love2d/index.md
+  title: "Afficher un texte avec Love2D"
+  url: /cours/5-les-bases-love2d/afficher-un-texte-avec-love2d/
+- path: cours/5-les-bases-love2d/afficher-des-formes-primaires-en-2d/index.md
+  title: "Afficher des formes Primaires en 2D"
+  url: /cours/5-les-bases-love2d/afficher-des-formes-primaires-en-2d/
+- path: cours/6-les-concepts-essentiels/index.md
+  title: "6. Les Concepts Essentiels"
+  url: /cours/6-les-concepts-essentiels/
+- path: cours/7-creation-de-jeux/index.md
+  title: "7. Création de Jeux"
+  url: /cours/7-creation-de-jeux/

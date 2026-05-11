@@ -201,3 +201,5 @@ Vous trouvez les numéros de lignes comme ceci dans l'éditeur de code :
 Bravo ! On a terminé, vous pouvez passer à la suite ;)
 
 **[Vous pouvez retourner à la liste des cours.](../)**
+
+{% include course_pager.md %}

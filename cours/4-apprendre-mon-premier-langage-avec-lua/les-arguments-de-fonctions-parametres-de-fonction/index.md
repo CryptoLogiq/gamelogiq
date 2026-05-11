@@ -291,3 +291,5 @@ C’est simple et ça fonctionne !
 Pour l'instant c’est tout ce que l’on veut… !
 
 **Bien Maintenant que vous êtes arrivés jusqu’ici ! Rendez-vous au prochain cours =)**
+
+{% include course_pager.md %}

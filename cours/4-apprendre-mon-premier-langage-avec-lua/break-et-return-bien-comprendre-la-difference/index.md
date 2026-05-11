@@ -169,3 +169,5 @@ ATTENTION ! héro est en dehors de l'écran
 ```
 
 **Fin du chapitre, on se retrouve pour la suite =)**
+
+{% include course_pager.md %}

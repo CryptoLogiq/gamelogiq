@@ -48,4 +48,5 @@ Si vous exécutez un de vos anciens projet et vous devriez apercevoir une fenêt
 
 Après cela, nous verrons comment afficher du texte à l'écran, et il est important de bien comprendre l'utilisation de Love2D…
 
+{% include course_pager.md %}
 

@@ -59,3 +59,5 @@ Si vous pouvez vous relire et comprendre facilement ce que vous avez fait, c’e
 
 
 [Commencer le cours](../les-origines-du-jeu-video/)
+
+{% include course_pager.md %}

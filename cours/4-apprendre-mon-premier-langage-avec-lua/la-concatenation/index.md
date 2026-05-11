@@ -340,3 +340,5 @@ Je vous laisse expérimenter ces nouvelles notions…
 ![](images/test.png)
 
 **On se retrouve pour la suite au prochain cours !**
+
+{% include course_pager.md %}

@@ -218,3 +218,5 @@ Lorsque la table  **a**  à été modifié la table  **b**  l’est aussi, c
 ![](images/references_simili_folder.png)
 
 **Fin du chapitre !**
+
+{% include course_pager.md %}

@@ -556,4 +556,5 @@ Toujours dans l’exemple d’un jeu, lorsque le Héros meurt, son total de vie 
 
 **Maintenant, donnons-nous rendez-vous au prochain cours sur les Arguments de Fonction.**
 
+{% include course_pager.md %}
 

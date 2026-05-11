@@ -46,3 +46,5 @@ Il a été créé par Luiz Henrique de Figueiredo, Roberto Ierusalimschy (en) et
 Note : C’est un interpréteur du langage C ANSI.
 
 (facultatif) voir la page Wikipédia pour plus d'information : [https://fr.wikipedia.org/wiki/Lua](https://fr.wikipedia.org/wiki/Lua)
+
+{% include course_pager.md %}

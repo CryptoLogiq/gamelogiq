@@ -21,3 +21,4 @@ Liste des chapitres de ce cours :
 3. [Afficher un texte avec Love2D](afficher-un-texte-avec-love2d/)
 4. [Afficher des formes Primaires en 2D](afficher-des-formes-primaires-en-2d/)
 
+{% include course_pager.md %}

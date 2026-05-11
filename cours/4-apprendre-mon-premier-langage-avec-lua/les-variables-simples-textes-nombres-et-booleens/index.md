@@ -616,4 +616,5 @@ C’est pratique, mais ça peut facilement vous induire en erreur alors attentio
 
 **Maintenant, rendez-vous au prochain chapitre où nous verrons comment mettre bout à bout plusieurs chaînes de caractères (des string) dans une variable.**
 
+{% include course_pager.md %}
 

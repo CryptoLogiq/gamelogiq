@@ -192,4 +192,5 @@ Donc à utiliser avec précaution :D
 
 **Rendez-vous au cours suivant !**
 
+{% include course_pager.md %}
 

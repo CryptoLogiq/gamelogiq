@@ -66,3 +66,5 @@ Comment savoir écrire son code proprement !
 
   
 [Bonus Lua : Les guides de styles](../bonus-2-les-guides-de-styles-lua/)
+
+{% include course_pager.md %}

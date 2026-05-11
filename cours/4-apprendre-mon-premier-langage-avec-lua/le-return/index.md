@@ -165,4 +165,5 @@ Plutôt cool non ? =D
 
 **Je vous attends au prochain cours !**
 
+{% include course_pager.md %}
 

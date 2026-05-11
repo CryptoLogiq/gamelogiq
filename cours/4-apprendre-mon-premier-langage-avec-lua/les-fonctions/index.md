@@ -261,4 +261,5 @@ sortie console :
 
 De cette manière la variable est bien modifiée !
 
+{% include course_pager.md %}
 

@@ -104,3 +104,4 @@ Ainsi qu’un manga portant quasiment le même nom, même si cela parle beaucoup
 
  [Guide\_Metiers\_NUMERIQUES\_2019\_V3.pdf](https://drive.google.com/file/d/19hako1K6kdHjVOJqghzvIkALLTYWpb-X/view)
 
+{% include course_pager.md %}

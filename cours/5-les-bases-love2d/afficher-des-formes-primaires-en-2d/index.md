@@ -377,4 +377,5 @@ Rendu : **Remarque : L'arcType** est bien facultatif, on note bien que le mode *
 
 - dessiner des arcs de cercles
 
+{% include course_pager.md %}
 

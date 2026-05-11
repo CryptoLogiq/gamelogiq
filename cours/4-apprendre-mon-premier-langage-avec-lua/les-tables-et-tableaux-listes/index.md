@@ -816,4 +816,5 @@ Cela démontre bien que le déplacement des index, peut être effectuer avec tab
 
 **Fin de ce chapitre sur les tables et tableaux !**
 
+{% include course_pager.md %}
 

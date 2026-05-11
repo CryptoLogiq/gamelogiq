@@ -104,3 +104,5 @@ _Module en travaux_
 _Module en travaux_
 
 ![](images/Tittle_IA_Machine_a_etat.png)
+
+{% include course_pager.md %}
