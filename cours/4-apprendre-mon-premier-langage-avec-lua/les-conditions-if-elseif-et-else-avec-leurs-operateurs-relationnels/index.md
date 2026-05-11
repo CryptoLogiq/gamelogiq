@@ -25,7 +25,7 @@ Voyons le pseudo-code ensemble, du pseudo-code c’est l'interprétation d’un
 
 Pseudo-code d’une boucle conditionnelle :
 
-```
+```lua
 SI (cette condition est vraie) ALORS
 	exécute ceci (corps de la boucle conditionnelle)
 FIN
@@ -53,7 +53,7 @@ print(test)
 ```
 
 sortie console :
-```
+```text
 1
 ```
 
@@ -75,8 +75,10 @@ Ils servent à comparer des expressions tels que : est plus grand que, est plus 
 | <= | plus petit ou égale |
 | \>= | plus grand ou égale |
 
-|  _Ne pas confondre entre **\=** et **\==**   car **\=** sert à assigner une valeur et **\==** sert à vérifier une égalité_ |
-| --- |
+```text
+_Ne pas confondre entre **=** et **==**
+car **=** sert à assigner une valeur et **==** sert à vérifier une égalité_
+```
 
   
 Un exemple :  
@@ -86,7 +88,7 @@ Dans un jeu nous voulons contrôler si notre variable de total de pièces ramass
 
 Pseudo-code d’utilisation d’un opérateur relationnel :
 
-```
+```text
 SI totalPieces égale 100 ALORS
     vieHero vaut vieHero + 1
 FIN
@@ -116,7 +118,7 @@ print(vieHero)
 ```
 
 sortie console :
-```
+```text
 1
 ```
 
@@ -148,7 +150,7 @@ print("porte ouverte ? "..porteOuverte)
 ```
 
 sortie console :
-```
+```text
 Vous possédez la clef ! La porte s'ouvre !
 Pour ouvrir la porte, il vous faut la clef ! porte ouverte ? false
 ```
@@ -217,8 +219,13 @@ Essayez de corriger notre exemple avec la clef et la porte qui ne s’ouvre pas 
 
 rappel :
 
-| initialiser une variable **porteOuverte** à false initialiser une variable **clef** à true afficher le texte suivant si la porte s’ouvre :   Vous possédez la clef ! La porte s'ouvre !   puis mettre **porteOuverte** à true et clef à false Sinon afficher le texte suivant :   Pour ouvrir la porte, il vous faut la clef !   mettre **porteOuverte** à false |
-| --- |
+```text
+initialiser une variable **porteOuverte** à false initialiser une variable **clef** à true afficher le texte suivant si la porte s’ouvre :
+Vous possédez la clef ! La porte s'ouvre !
+puis mettre **porteOuverte** à true et clef à false Sinon afficher le texte suivant :
+Pour ouvrir la porte, il vous faut la clef !
+mettre **porteOuverte** à false
+```
 
 Solution en cours d'écriture par vous même...
 
@@ -245,7 +252,7 @@ print("porte ouverte ? "..porteOuverte)
 ```
 
 sortie console :
-```
+```text
 Vous possédez la clef ! La porte s'ouvre !
 porte ouverte ? true
 ```
@@ -303,7 +310,7 @@ print("Vies : "..vie)
 ```
 
 sortie console :
-```
+```text
 Héro a gagné sa première vie, bravo !
 
 Pièces : 100
@@ -325,8 +332,10 @@ C’est pourquoi il existe des opérateurs logiques : **AND** ,  **OR** et **NO
 
 Pseudo-Code avec AND :
 
-| SI condition1 ET condition2 ALORS   END |
-| --- |
+```text
+SI condition1 ET condition2 ALORS
+END
+```
 
 Syntaxe d’utilisation avec AND :
 
@@ -339,8 +348,10 @@ end
 
 Pseudo-Code avec OR :
 
-| SI condition1 OU condition2 ALORS   END |
-| --- |
+```text
+SI condition1 OU condition2 ALORS
+END
+```
 
 Syntaxe d’utilisation avec OR :
 
@@ -353,8 +364,10 @@ end
 
 Syntaxe d’utilisation avec NOT :
 
-| SI condition1 EST\_DIFFERENT\_DE condition2 ALORS   END |
-| --- |
+```text
+SI condition1 EST_DIFFERENT_DE condition2 ALORS
+END
+```
 
 Syntaxe d’utilisation avec NOT :
 
@@ -367,8 +380,10 @@ end
 
 - Les priorités logiques
 
-| Les opérateurs logiques sont and, or, et not. (Qui font aussi partie des mots réservés.) Tous les opérateurs logiques considèrent à la fois false et nil comme faux et tout le reste comme vrai. L'opérateur de négation not retourne toujours false ou true. L'opérateur de conjonction and retourne son premier argument si cette valeur est false ou nil, ou son second argument dans le cas contraire. L'opérateur de disjonction or retourne son premier argument si cette valeur est différente de nil et false, ou son second argument dans le cas contraire. Les deux opérateurs and et or utilisent un raccourci d'évaluation.   C'est-à-dire que le second opérande\* est évalué uniquement si nécessaire. |
-| --- |
+```text
+Les opérateurs logiques sont and, or, et not. (Qui font aussi partie des mots réservés.) Tous les opérateurs logiques considèrent à la fois false et nil comme faux et tout le reste comme vrai. L'opérateur de négation not retourne toujours false ou true. L'opérateur de conjonction and retourne son premier argument si cette valeur est false ou nil, ou son second argument dans le cas contraire. L'opérateur de disjonction or retourne son premier argument si cette valeur est différente de nil et false, ou son second argument dans le cas contraire. Les deux opérateurs and et or utilisent un raccourci d'évaluation.
+C'est-à-dire que le second opérande* est évalué uniquement si nécessaire.
+```
 
 \*opérande = test logique
 
@@ -390,8 +405,9 @@ _source : [https://wxlua.developpez.com/tutoriels/lua/general/cours-complet/#LII
 
 - Exercice
 
-| Reprendre l’exemple précédent avec AND |
-| --- |
+```text
+Reprendre l’exemple précédent avec AND
+```
 
 Solution...
 
@@ -415,7 +431,7 @@ print("Vies : "..vie)
 ```
 
 sortie console :
-```
+```text
 Héro a gagné sa première vie, bravo ! Pièces : 100
 Vies : 1
 ```
@@ -424,8 +440,9 @@ Les deux conditions existent bien et ça fonctionne. De plus, personnellement je
 
 - Exercice suite
 
-| ajoutons une variable bonusVieSup initialisé à true modifions son total de pièces à 35 Reprendre l’exemple précédent avec OR (100 pièces ou bonusVieSup) |
-| --- |
+```text
+ajoutons une variable bonusVieSup initialisé à true modifions son total de pièces à 35 Reprendre l’exemple précédent avec OR (100 pièces ou bonusVieSup)
+```
 
 Solution...
 
@@ -451,7 +468,7 @@ print("Vies : "..vie)
 
 sortie console :
 
-```
+```text
 Héro a gagné sa première vie, bravo ! Pièces : 35
 Vies : 1
 ```
@@ -460,8 +477,9 @@ Une des deux conditions est vrai donc la boucle conditionnel est exécuté =)
 
 ## Exercice Final  
 
-| supprimer la variable bonusVieSup ajouter la variable heroMort initialisé à false modifier total de pièces à 100 Reprendre l’exemple précédent avec NOT  heroMort  AND 100 pièces |
-| --- |
+```text
+supprimer la variable bonusVieSup ajouter la variable heroMort initialisé à false modifier total de pièces à 100 Reprendre l’exemple précédent avec NOT  heroMort  AND 100 pièces
+```
 
 Solution ...
 
@@ -486,7 +504,7 @@ print("Vies : "..vie)
 ```
 
 sortie console :
-```
+```text
 Héro a gagné sa première vie, bravo ! Pièces : 35
 Vies : 1Héro a gagné sa première vie, bravo ! Pièces : 35
 Vies : 1
@@ -535,7 +553,7 @@ print(bonbon)
 ```
 
 sortie console :
-```
+```text
 3
 ```
 

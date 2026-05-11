@@ -64,7 +64,7 @@ addition(valeur1, valeur2)
 ```
 
 sortie console :
-```
+```text
 5
 ```
 
@@ -94,7 +94,7 @@ print(total)
 ```
 
 sortie console :
-```
+```text
 5
 ```
 
@@ -117,7 +117,7 @@ print(a)
 ```
 
 sortie console :
-```
+```text
 nil
 ```
 
@@ -152,7 +152,7 @@ print("en dehors de la fonction et après addition(a, b)".."\n", "a = "..a, "b =
 ```
 
 sortie console :
-```
+```text
 en dehors de la fonction et avant addition(a, b) a = 10           b = 20        c = 0         
 
 dans la fonction addition(a, b) a = 3         b = 2          resultat = 30 
@@ -172,8 +172,9 @@ _Nous aborderons la portée des variables plus en profondeur dans un chapitre ul
 
 ## Exercice 1
 
-| \- Créer un héros avec de la vie, et un ennemi avec une force d’attaque. - Créer une fonction Attaque() qui contient deux arguments, Cible et Degats. - Attaque() devra retourner la vie de la cible après l’attaque. |
-| --- |
+```text
+- Créer un héros avec de la vie, et un ennemi avec une force d’attaque. - Créer une fonction Attaque() qui contient deux arguments, Cible et Degats. - Attaque() devra retourner la vie de la cible après l’attaque.
+```
 
 Attente de la Solution …
 
@@ -199,7 +200,7 @@ print(vieHero)
 ```
 
 sortie console :
-```
+```text
 la cible dispose de 100 points de vie et subit une attaque de 20 points de dégâts. la cible a désormais 80 points de vie. 80
 ```
 
@@ -213,8 +214,9 @@ Pour cela on va faire un nouvel exercice ensemble =)
 
 ## Exercice 2
 
-| Créer un héros avec de la vie et avec une force d’attaque. Créer un ennemi avec de la vie et avec une force d’attaque. Créer une fonction Attaque() qui contient deux arguments :    - Cible    - Degats Attaque() devra retourner la vie de la cible après l’attaque. Faire attaquer l'ennemi et le héros chacun leur tour avec la même fonction Attaque() |
-| --- |
+```text
+Créer un héros avec de la vie et avec une force d’attaque. Créer un ennemi avec de la vie et avec une force d’attaque. Créer une fonction Attaque() qui contient deux arguments :    - Cible    - Degats Attaque() devra retourner la vie de la cible après l’attaque. Faire attaquer l'ennemi et le héros chacun leur tour avec la même fonction Attaque()
+```
 
 Solution de l'exercice en chargement…
 
@@ -247,7 +249,7 @@ vieEnnemi = Attaque(vieEnnemi, frappeHero)
 ```
 
 sortie console :
-```
+```text
 attaque du héro la cible dispose de 100 points de vie et subit une attaque de 20 points de dégâts. la cible a désormais 80 points de vie. attaque de l'ennemi la cible dispose de 60 points de vie et subit une attaque de 30 points de dégâts. la cible a désormais 30 points de vie.
 ```
 
@@ -255,8 +257,13 @@ Si vous avez réussi, c'est excellent ! Si ce n’est pas le cas pas de panique 
 
 - Essayez de reprendre pas à pas ce qu’il se produit en lisant le code à voix haute…
 
-| Petite Aide :   J’initialise les variables dont j’ai besoin…   J’ai créé la fonction avec ses arguments et son corps de fonction.   J’utilise la fonction en passant aux arguments différents variables.   Je print() les variables après l’utilisation de la fonction. |
-| --- |
+```text
+Petite Aide :
+J’initialise les variables dont j’ai besoin…
+J’ai créé la fonction avec ses arguments et son corps de fonction.
+J’utilise la fonction en passant aux arguments différents variables.
+Je print() les variables après l’utilisation de la fonction.
+```
 
 ## Bonus
 
@@ -284,7 +291,7 @@ ennemiVie = Attaque(ennemiName, ennemiVie,     heroName,      heroFrappe)
 ```
 
 sortie console :
-```
+```text
 Arthur subit une attaque par Slime d'un montant de 10 points de dégâts. Arthur a désormais 90 points de vie. Slime subit une attaque par Arthur d'un montant de 20 points de dégâts. Slime a désormais 20 points de vie.
 ```
 

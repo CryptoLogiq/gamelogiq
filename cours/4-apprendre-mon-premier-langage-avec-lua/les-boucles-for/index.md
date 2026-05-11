@@ -37,8 +37,12 @@ La boucle FOR s’utilise toujours avec une constante positive ou négative.
 
 Pseudo-code d’une boucle FOR :
 
-| **DE** _valeur\_de\___debut_ **\=** valeur **A** _valeur\_de\_fin_ **,** _valeur\___constante\_de\_pas_ **FAIT**   **ceci**    _--_ **la boucle se** **TERMINE SI** _valeur\_de\_debut_ **\=** _valeur\_de\_fin_   **SINON** on ajoute la _valeur\___constante\_de\_pas_ à _valeur\_de\___debut_ **et** **_on recommence_** la boucle |
-| --- |
+```text
+**DE** _valeur_de___debut_ **=** valeur **A** _valeur_de_fin_ **,** _valeur___constante_de_pas_ **FAIT**
+**ceci**
+ _--_ **la boucle se** **TERMINE SI** _valeur_de_debut_ **=** _valeur_de_fin_
+**SINON** on ajoute la _valeur___constante_de_pas_ à _valeur_de___debut_ **et** **_on recommence_** la boucle
+```
 
 Syntaxe d’une boucle FOR :
 
@@ -54,7 +58,7 @@ Ici on a donc une _Valeur\_de\_Pas = 1._
 
 Voici concrètement ce qu’il se passe et que nous ne voyons pas :
 
-```
+```lua
 for compteur = 1 à 3, 1 do
  -- fait ceci
 end -- si compteur ne vaut pas 3 je continue et j'ajoute la constante à compteur soit compteur = compteur + 1 = 2
@@ -79,7 +83,7 @@ end
 ```
 
 sortie console :
-```
+```text
 compteur :  1 compteur :  2 compteur :  3
 ```
 
@@ -98,7 +102,7 @@ print(total)
 ```
 
 sortie console :
-```
+```text
 30
 ```
 
@@ -118,7 +122,7 @@ print(total)
 ```
 
 sortie console :
-```
+```text
 compteur :  3 compteur :  2 compteur :  1
 30
 ```
@@ -140,7 +144,7 @@ print(total)
 ```
 
 sortie console :
-```
+```text
 20
 ```
 
@@ -185,7 +189,7 @@ end
 ```
 
 sortie console :
-```
+```text
 boucle :  1 boucle :  2 boucle :  3
 ```
 
@@ -195,8 +199,9 @@ La **Variable de début** est **local** à la boucle **FOR**.
 
 ### Exercice 1 :
 
-| initialiser une variable numérique score à 0 créer une boucle FOR qui doit s'exécuter 10 fois Incrémenter la variable score d’une constante de 10 à chaque fois que la boucle s'exécute afficher la valeur de score avant, pendant et après la boucle (print) |
-| --- |
+```text
+initialiser une variable numérique score à 0 créer une boucle FOR qui doit s'exécuter 10 fois Incrémenter la variable score d’une constante de 10 à chaque fois que la boucle s'exécute afficher la valeur de score avant, pendant et après la boucle (print)
+```
 
 Solution . . .
 
@@ -221,7 +226,7 @@ print("la boucle est finie, score vaut désormais : "..score.." pts.")
 ```
 
 sortie console :
-```
+```text
 initialisation de score, score vaut 0 pts. boucle n°1, score vaut : 10 pts.
 boucle n°2, score vaut : 20 pts.
 boucle n°3, score vaut : 30 pts.
@@ -249,7 +254,7 @@ print(texte)
 ```
 
 sortie console :
-```
+```text
 ##############################
 ```
 
@@ -273,7 +278,7 @@ print(texte)
 ```
 
 sortie console :
-```
+```text
 ##############################
 ```
 
@@ -301,7 +306,7 @@ print(start)
 ```
 
 sortie console :
-```
+```text
 ##############################
 1
 ```
@@ -315,8 +320,9 @@ Vous savez également ce qu’est une **constante**.
 
 ### Exercice 2 :
 
-| initialiser une variable du **total de pièces** à 0 initialiser une variable du **nombre de vies du héros** à 0 créée une **boucle FOR** qui **incrémente** nos pièces **jusqu’à 100** dans la boucle FOR ajoutez une condition que **SI total de pièces est égale à 100 ALORS il faut ajouter une vie et remettre le total de pièces à 0** **après** l'exécution de la boucle, **afficher le total de pièces et de vie** |
-| --- |
+```text
+initialiser une variable du **total de pièces** à 0 initialiser une variable du **nombre de vies du héros** à 0 créée une **boucle FOR** qui **incrémente** nos pièces **jusqu’à 100** dans la boucle FOR ajoutez une condition que **SI total de pièces est égale à 100 ALORS il faut ajouter une vie et remettre le total de pièces à 0** **après** l'exécution de la boucle, **afficher le total de pièces et de vie**
+```
 
 Solution ?
 
@@ -343,15 +349,16 @@ print("Héro possède "..totalPieces.." pièces et "..vieHero.." vie.")
 ```
 
 sortie console :
-```
+```text
 Héro a atteint un total de 100 pièces ! il gagne une vie.
 Héro possède 0 pièces et 1 vie.
 ```
 
 ### Exercice 3 :
 
-| Faites monter notre Héro à un total de 5 vies avec les pièces. Si Héro à exactement trois vies, Faites lui gagner une étoile (variable à créer). Si Héro gagne une vie alors qu’il possède déjà une étoile ou plus, écrivez un Message de la part du “Méchant” qui invite notre Héro à le rejoindre dans son château. Vous avez d’autres idées ? Faites vous plaisir et tester… ! |
-| --- |
+```text
+Faites monter notre Héro à un total de 5 vies avec les pièces. Si Héro à exactement trois vies, Faites lui gagner une étoile (variable à créer). Si Héro gagne une vie alors qu’il possède déjà une étoile ou plus, écrivez un Message de la part du “Méchant” qui invite notre Héro à le rejoindre dans son château. Vous avez d’autres idées ? Faites vous plaisir et tester… !
+```
 
 Solution…
 
@@ -397,7 +404,7 @@ print("Héro possède désormais "..totalPieces.." pièces et "..viesHero.." vie
 ```
 
 sortie console :
-```
+```text
 Héro : Ils sont quand même sacrément bon ces petits champignons ! Héro gagne une étoile car il a atteint 3 vies. 
 
 Héro possède désormais 0. Méchant : Héro je t'attends dans mon château, je t'ai préparé un café chaud bouillant rien que pour toi ! Méchant : 

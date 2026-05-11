@@ -38,7 +38,7 @@ print(nom, prenom, jour, mois, annee, reponse)
 ```
 
 Sortie console :
-```
+```text
 Nolan Bushnell 27 06 1962 true
 ```
 
@@ -73,7 +73,7 @@ print(nomComplet)
 ```
 
 Sortie console :
-```
+```text
 Nolan Bushnell
 ```
 
@@ -108,7 +108,7 @@ print(dateComplete)
 ```
 
 Sortie console :
-```
+```text
 27061962
 ```
 
@@ -149,7 +149,7 @@ print(dateComplete)
 ```
 
 Sortie console :
-```
+```text
 27/06/1962
 ```
 
@@ -162,7 +162,7 @@ print(Atari)
 ```
 
 Sortie console :
-```
+```text
 Atari a été fondé le 27/06/1962, vous trouverez plus d'information sur : https://fr.wikipedia.org/wiki/Atari
 ```
 
@@ -182,7 +182,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Bonjour comment allez-vous ? Je vais bien merci et vous ?
 ```
 
@@ -196,7 +196,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Bonjour comment allez-vous ?
    Je vais bien merci.
 ```
@@ -214,7 +214,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Bonjour comment allez-vous ?
 Je vais bien merci.
 ```
@@ -227,7 +227,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Bonjour comment allez-vous ?
 Je vais bien merci.
 ```
@@ -251,7 +251,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Titre(1)Sujet(1)Sujet(2)
 ```
 
@@ -266,7 +266,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Titre(1)   Sujet(1)   Sujet(2)
 ```
 
@@ -291,7 +291,7 @@ print(monTexte)
 ```
 
 Sortie console :
-```
+```text
 Titre(1)
    Sujet(1)
    Sujet(2)
@@ -334,7 +334,7 @@ print(monTexte)
 ```
 
 sortie console :
-```
+```text
 maVariable = "mon texte"
 ```
 

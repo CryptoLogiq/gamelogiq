@@ -34,8 +34,10 @@ Concrètement, un IDE c’est un logiciel de traitement de texte évolué qui pr
 Comme notre objectif est d’utiliser par la suite le framework LUA de Love2D.  
 On peut voir sur leur site web, ils nous conseillent 3 - 4 IDE différents.
 
-| [ZeroBrane Studio](http://studio.zerobrane.com/),  [Sublime Text](https://love2d.org/wiki/Sublime_Text),  [Notepad++](https://love2d.org/wiki/Notepad%2B%2B),  and  [SciTE](https://love2d.org/wiki/SciTE) allow you to launch the game from within their code editors.   source : [https://love2d.org/wiki/Getting\_Started](https://love2d.org/wiki/Getting_Started) |
-| --- |
+```text
+[ZeroBrane Studio](http://studio.zerobrane.com/),  [Sublime Text](https://love2d.org/wiki/Sublime_Text),  [Notepad++](https://love2d.org/wiki/Notepad%2B%2B),  and  [SciTE](https://love2d.org/wiki/SciTE) allow you to launch the game from within their code editors.
+source : [https://love2d.org/wiki/Getting_Started](https://love2d.org/wiki/Getting_Started)
+```
 
 Nous retiendrons une attention particulière à **ZeroBrane** qui propose des palettes d’outils simples, déjà préconfiguré et dispose de l’essentiel tout simplement. De plus, il est disponible sur Windows, Mac et Linux. Cet IDE est idéal pour débuter.
 
@@ -108,13 +110,13 @@ Si celles-ci sont déjà présentes modifiez-les comme les exemples ci-dessous :
 
 \- Nous allons renseigner la **langue en français** en ajoutant cette ligne :
 
-```
+```lua
 language = "fr"
 ```
 
 \- Nous allons également **charger les thèmes** :
 
-```
+```lua
 styles = loadfile('cfg/tomorrow.lua')('TomorrowNight') 
 stylesoutshell = styles -- apply the same scheme to Output/Console windows 
 styles.auxwindow = styles.text -- apply text colors to auxiliary windows 
@@ -123,7 +125,7 @@ styles.calltip = styles.text -- apply text colors to tooltips
 
 \- Nous allons rajouter cette ligne pour modifier **la taille de la police d’écriture** par défaut :
 
-```
+```lua
 editor.fontsize = 14
 ```
 
@@ -131,7 +133,7 @@ Celle-ci est à 12 par défaut, à vous de tester celle qui vous convient le mie
 
 \- Enfin nous allons ajouter cette ligne de paramètre pour avoir accès à vos variables via nos différents fichiers ouverts (chose qui nous sera bien utile plus tard) :
 
-```
+```lua
 acandtip.nodynwords = false
 ```
 

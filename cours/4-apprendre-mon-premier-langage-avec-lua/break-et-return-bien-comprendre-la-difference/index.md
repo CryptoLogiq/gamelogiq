@@ -41,7 +41,7 @@ print("playerColonne : "..playerColonne.."n".."playerLigne  : "..playerLigne)
 ```
 
 sortie console :
-```
+```text
 playerColonne : 1
 playerLigne  : 1
 ```
@@ -84,7 +84,7 @@ print("playerColonne : "..playerColonne.."n".."playerLigne  : "..playerLigne)
 ```
 
 sortie console :
-```
+```text
 playerColonne : 1
 playerLigne  : 5
 ```
@@ -126,7 +126,7 @@ print("playerColonne : "..playerColonne.."n".."playerLigne  : "..playerLigne)
 ```
 
 sortie console :
-```
+```text
 playerColonne : 1
 playerLigne  : 1
 ```
@@ -166,7 +166,7 @@ end
 ```
 
 sortie console :
-```
+```text
 ATTENTION ! héro est en dehors de l'écran
 ```
 

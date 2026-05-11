@@ -9,7 +9,7 @@ Tout d’abord au début des premiers chapitres nous avons vu les Variables Simp
 
 Petit rappel des différents types de ces variables :
 
-```
+```lua
 age = 10 -- number
 name = "robert" -- string
 enVie = true -- boolean
@@ -18,7 +18,7 @@ inventaire = nil -- nil (void / vide)
 
 Ensuite nous avons abordé le nommage de ces variables :
 
-```
+```lua
 heroVie = 100
 heroName = "Arthur"
 
@@ -29,7 +29,7 @@ ennemiName = "Bidule"
   
 Nous avons aussi vu qu’une variable pouvait être aussi une fonction :
 
-```
+```lua
 maFonction = function()
         -- corps de la fonction
 end
@@ -90,12 +90,17 @@ On peut aussi visualiser la table HERO comme une grande armoire…
 
 Pseudo-code :
 
-| Hero est une Table   Hero est composé d'un composant vie qui vaut cette valeur   Hero est composé d'un composant force qui vaut cette valeur   Hero est composé d'un composant endurance qui vaut cette valeur   Hero est composé d'un composant nom qui vaut cette valeur |
-| --- |
+```text
+Hero est une Table
+Hero est composé d'un composant vie qui vaut cette valeur
+Hero est composé d'un composant force qui vaut cette valeur
+Hero est composé d'un composant endurance qui vaut cette valeur
+Hero est composé d'un composant nom qui vaut cette valeur
+```
 
 Syntaxe d’une table :
 
-```
+```lua
 maTable = {} -- creation d'une table qui se nomme maTable
 maTable.composant = "valeur"
 ```
@@ -106,7 +111,7 @@ L'utilisation d'un point apres **maTable** indique que l'on veut accèder/créer
 
 Donc pour notre héros :
 
-```
+```lua
 Hero = {} -- on créer la table Hero
 
 Hero.vie = 100 -- on créer un composant "vie" avec sa valeur 100
@@ -126,7 +131,7 @@ Vous ne trouvez pas que tout de suite c’est plus clair et lisible ?!
 
 ## Comment accéder aux valeurs de la table ? :
 
-```
+```lua
 Hero = {}
 Hero.vie = 100
 
@@ -135,7 +140,7 @@ print(Hero.vie)
 
 sortie console :
 
-```
+```text
 100
 ```
 
@@ -143,7 +148,7 @@ Tout simplement =)
 
 # Les bons termes à utiliser :
 
-```
+```lua
 Hero.vie = 100
 ```
 
@@ -171,7 +176,7 @@ Comme un string peut contenir des lettres et des chiffres c’est pourquoi on ut
 
 Voyons les différentes écritures pour créer/accéder à un index alphanumérique :
 
-```
+```lua
 Hero = {}
 Hero.vie = 100
 print(Hero.vie)
@@ -179,13 +184,13 @@ print(Hero.vie)
 
 sortie console :
 
-```
+```text
 100
 ```
 
 **Les crochets \[\]** nous permettent aussi d'accéder à l’index d’une table !
 
-```
+```lua
 Hero = {}
 Hero["vie"] = 100
 print(Hero["vie"])
@@ -193,7 +198,7 @@ print(Hero["vie"])
 
 sortie console :
 
-```
+```text
 100
 ```
 
@@ -210,7 +215,7 @@ _En Lua les index numérique commencent à 1 !_
 
 Exemple :
 
-```
+```lua
 Inventaire = {}
 Inventaire[1] = 150
 Inventaire[2] = "épée"
@@ -223,7 +228,7 @@ print(Inventaire[3])
 
 sortie console :
 
-```
+```text
 150
 épée
 bouclier
@@ -241,7 +246,7 @@ On utilise le terme de tableaux pour l'utilisation des index numériques du fait
 
 _Attention à ne pas mélanger les index numériques et alphanumériques !_
 
-```
+```lua
 Inventaire = {}
 Inventaire[1] = "epée"
 
@@ -251,7 +256,7 @@ print(Inventaire["1"])
 
 sortie console :
 
-```
+```text
 epée
 nil
 ```
@@ -284,13 +289,16 @@ Voyons leurs syntaxes et des exemples =)
 
 Pseudo-code boucle pairs:
 
-| POUR chaque index, et sa valeur contenu dans ( la table ) FAIT       ceci   FIN |
-| --- |
+```text
+POUR chaque index, et sa valeur contenu dans ( la table ) FAIT
+    ceci
+FIN
+```
 
   
 Syntaxe d’une boucle pairs :
 
-```
+```lua
 for k, v in pairs(table) do
   -- corps de la fonction
 end
@@ -304,7 +312,7 @@ Voyons un exemple de la boucle _pairs_ avec une table _Hero_…
 
 Boucle **_pairs_**, elle parcourt tous les index qu'ils soient alphanumériques ou numériques :
 
-```
+```lua
 Hero = {}
 Hero.vie = 100
 Hero.force = 10
@@ -321,7 +329,7 @@ end
 
 sortie console :
 
-```
+```text
 1 : 1
 2 : 2
 3 : 3
@@ -339,13 +347,16 @@ Tous nos index ont été identifiés et print()
 
 Pseudo-code boucle **_ipairs_**:
 
-| POUR chaque index NUMÉRIQUES, et sa valeur contenu dans ( table ) FAIT       ceci   FIN |
-| --- |
+```text
+POUR chaque index NUMÉRIQUES, et sa valeur contenu dans ( table ) FAIT
+    ceci
+FIN
+```
 
   
 Syntaxe d’une boucle ipairs :
 
-```
+```lua
 for k, v in ipairs(table) do
   -- corps de la fonction
 end
@@ -358,7 +369,7 @@ v = valeur
   
 Boucle **_ipairs_** : seulement numériques !
 
-```
+```lua
 Hero = {}
 Hero.vie = 100
 Hero.force = 10
@@ -375,7 +386,7 @@ end
 
 sortie console :
 
-```
+```text
 1 : 1
 2 : 2
 3 : 3
@@ -398,7 +409,7 @@ Créons, par exemple, notre table Hero avec des variables tels que vie, force, 
 
 Exemple :
 
-```
+```lua
 Hero = {}
 Hero.vie = 100
 Hero.force = 10
@@ -424,7 +435,7 @@ end
 
 sortie console :
 
-```
+```text
 adresse de la table Hero : table: 0x10a22541 Contenu de la table Hero :
 Hero.vie : 100
 Hero.force : 10
@@ -463,14 +474,14 @@ Reprenons cela sous une autre forme… :
 Si on veut créer une table on utilise le constructeur {}  
 _par défaut elle ne comporte pas de composants._
 
-```
+```lua
 maTable = {}
 ```
 
   
 \-Une table peut contenir des index alphanumérique :
 
-```
+```lua
 maTable["maVar"] = valeur
 maTable.monAutreVar = valeur
 ```
@@ -478,14 +489,14 @@ maTable.monAutreVar = valeur
   
 \-Une table peut contenir des index numériques :
 
-```
+```lua
 maTable[number] = valeur
 ```
 
   
 \-Une table peut contenir des fonctions :
 
-```
+```lua
 function maTable.maFonction()
     -- bloc
 end
@@ -493,7 +504,7 @@ end
 
 \-Une table peut contenir d’autres tables
 
-```
+```lua
 maTable.maSousTable = {}
 ```
 
@@ -522,7 +533,7 @@ Si vous pensez avoir compris cela, on va approfondir légèrement plus les table
   
 On va reproduire l’exemple ci-dessous avec une boucle :
 
-```
+```lua
 inventaire = {}
 inventaire[1] = 1
 inventaire[2] = 2
@@ -531,7 +542,7 @@ inventaire[3] = 3
 
 exemple :
 
-```
+```lua
 inventaire = {}
 for i = 1, 3 do
  inventaire[i] = i
@@ -544,7 +555,7 @@ end
 
 sortie console :
 
-```
+```text
 inventaire[1] : 1
 inventaire[2] : 2
 inventaire[3] : 3
@@ -558,7 +569,7 @@ Parfait !
 
 Syntaxe :
 
-```
+```lua
 maTable = {}
 maTable[1] = 1
 maTable[2] = 5
@@ -569,13 +580,13 @@ print(#maTable)
 
 sortie console :
 
-```
+```text
 3
 ```
 
 Exemple pour parcourir une table numérique en utilisant # (lenght) :
 
-```
+```lua
 inventaire = {}
 for i = 1, 3 do
  inventaire[i] = i
@@ -590,7 +601,7 @@ end
 
 sortie console :
 
-```
+```text
 total d'index de la table inventaire : 3   inventaire[1] : 1 inventaire[2] : 2 inventaire[3] : 3
 ```
 
@@ -602,14 +613,14 @@ Un autre exemple d’utilisation de # avec une variable string.
 
 exemple :
 
-```
+```lua
 inventaire = "mon inventaire"
 print(#inventaire)
 ```
 
 sortie console :
 
-```
+```text
 14
 ```
 
@@ -624,7 +635,7 @@ il existe une fonction dans lua qui sert à manipuler les index de table numéri
 
 ## table.insert()
 
-```
+```lua
 table.insert(table, valeur) -- Permet d'ajouter un index à la fin
 
 table.insert(table, index, valeur) -- Permet d'ajouter un index à l'emplacement souhaité
@@ -632,7 +643,7 @@ table.insert(table, index, valeur) -- Permet d'ajouter un index à l'emplacement
 
 ## table.remove()
 
-```
+```lua
 table.remove(table, index) -- Permet de supprimer un index
 
 table.remove(table) -- Permet de supprimer le dernier index
@@ -641,7 +652,7 @@ table.remove(table) -- Permet de supprimer le dernier index
 ###   
 Comment  ajouter des index :
 
-```
+```lua
 inventaire = {}
 -- #inventaire = 0 : total d'index = 0
 -- si on fait un table.insert(inventaire, valeur) alors : #inventaire vaut +1 (ajout d un index)
@@ -659,7 +670,7 @@ end
 
 sortie console :
 
-```
+```text
 nombre d'index de la table inventaire : 3 
 inventaire[1] : 1
 inventaire[2] : 2
@@ -670,7 +681,7 @@ inventaire[3] : 3
 
 ### Comment supprimer des index :
 
-```
+```lua
 inventaire = {}
 for i = 1, 3 do
  inventaire[i] = i
@@ -689,7 +700,7 @@ end
 
 sortie console :
 
-```
+```text
 total d'index de la table inventaire avant suppression : 3 
 total d'index de la table inventaire apres suppression : 2
 inventaire[1] : 1
@@ -702,7 +713,7 @@ Que se passe-t-il si l’on supprime un index au milieu ?
 
 ### Démonstration :
 
-```
+```lua
 inventaire = {}
 for i = 1, 3 do
  inventaire[i] = i
@@ -721,7 +732,7 @@ end
 
 sortie console :
 
-```
+```text
 #inventaire avant supression : 3
 #inventaire avant supression : 2
 inventaire[1] : 1
@@ -738,7 +749,7 @@ Voyons l'explication précédentes avec des schémas :
 Que se passe-t-il réellement lors de l’utilisation de **table.remove(inventaire, 2)** ?  
 ![](images/table_remove_index.png)
 
-```
+```lua
 inventaire = {} 
 inventaire[1] = 1 
 inventaire[2] = 2 
@@ -776,7 +787,7 @@ Comme nous venons de le voir, les index se décalent a leur suppression.
 
 c'est aussi le cas lorsque nous inseront un nouvel index a un emplacement deja existant ;)
 
-```
+```lua
 compteur = {}
 -- #compteur vaut 0 : soit un total d'index de 0
 
@@ -807,7 +818,7 @@ end
 
 sortie console :
 
-```
+```text
 nombre d'index de la table compteur : 3
 compteur[1] : 1
 compteur[2] : 2

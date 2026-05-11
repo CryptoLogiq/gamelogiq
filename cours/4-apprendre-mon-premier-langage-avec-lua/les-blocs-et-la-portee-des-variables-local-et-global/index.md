@@ -77,7 +77,7 @@ print(heroName)
 ```
 
 sortie console :
-```
+```text
 Izac Cromi
 ```
 
@@ -121,8 +121,9 @@ Les variables locales sont donc à prioriser la plupart du temps. Déjà, car on
 
 # Conclusion :
 
-| **prioriser l'utilisation des variables locales autant que possible !** |
-| --- |
+```text
+**prioriser l'utilisation des variables locales autant que possible !**
+```
 
 **Fin de ce chapitre, passons à la suite !**
 

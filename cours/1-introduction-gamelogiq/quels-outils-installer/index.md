@@ -31,8 +31,10 @@ Concrètement, un IDE c’est un logiciel de traitement de texte évolué qui pr
 Comme notre objectif est d’utiliser par la suite le framework LUA de Love2D.  
 On peut voir sur leur site web, qu'ils nous conseillent plusieurs IDE différents.
 
-| [ZeroBrane Studio](http://studio.zerobrane.com/),  [Sublime Text](https://love2d.org/wiki/Sublime_Text),  [Notepad++](https://love2d.org/wiki/Notepad%2B%2B),  and  [SciTE](https://love2d.org/wiki/SciTE) allow you to launch the game from within their code editors.   source : [https://love2d.org/wiki/Getting\_Started](https://love2d.org/wiki/Getting_Started) |
-| --- |
+```text
+[ZeroBrane Studio](http://studio.zerobrane.com/),  [Sublime Text](https://love2d.org/wiki/Sublime_Text),  [Notepad++](https://love2d.org/wiki/Notepad%2B%2B),  and  [SciTE](https://love2d.org/wiki/SciTE) allow you to launch the game from within their code editors.
+source : [https://love2d.org/wiki/Getting_Started](https://love2d.org/wiki/Getting_Started)
+```
 
 Nous retiendrons une attention particulière à **ZeroBrane** qui propose des palettes d’outils simples, déjà préconfiguré et dispose de l’essentiel tout simplement. De plus, il est disponible sur Windows, Mac et Linux. Cet IDE est idéal pour débuter.
 

@@ -24,8 +24,11 @@ Tant que la condition est vraie la boucle s'exécute !
 
 Pseudo-code Boucle While :
 
-| TANT QUE la condition est vraie ALORS   fais ceci   FIN |
-| --- |
+```text
+TANT QUE la condition est vraie ALORS
+fais ceci
+FIN
+```
 
 Syntaxe :
 
@@ -47,7 +50,7 @@ print(pieces)
 ```
 
 sortie console :
-```
+```text
 100
 ```
 
@@ -66,7 +69,7 @@ print(pieces)
 ```
 
 sortie console :
-```
+```text
 0
 ```
 
@@ -89,7 +92,7 @@ print(pieces)
 ```
 
 sortie console :
-```
+```text
 100
 ```
 
@@ -106,8 +109,11 @@ Tant que la condition est vraie la boucle s'exécute !
   
 Pseudo-code Boucle While :
 
-| FAIT   ceci   ET TANT QUE la condition est vraie RECOMMENCE sinon STOP la boucle. |
-| --- |
+```text
+FAIT
+ceci
+ET TANT QUE la condition est vraie RECOMMENCE sinon STOP la boucle.
+```
 
 Syntaxe :
 
@@ -129,7 +135,7 @@ print(pieces)
 ```
 
 sortie console :
-```
+```text
 100
 ```
 
@@ -148,7 +154,7 @@ print(pieces)
 ```
 
 sortie console :
-```
+```text
 -1
 ```
 

@@ -75,7 +75,7 @@ print( type(maFonction) )
 ```
 
 sortie console :
-```
+```text
 function
 ```
 
@@ -153,7 +153,7 @@ imprimeVariables() -- appel de la fonction
 ```
 
 sortie console :
-```
+```text
 Mario Bros
 ```
 
@@ -228,7 +228,7 @@ Attaque()
 ```
 
 sortie console :
-```
+```text
 90
 90
 ```
@@ -254,7 +254,7 @@ Attaque()
 ```
 
 sortie console :
-```
+```text
 100
 90
 80

@@ -28,7 +28,7 @@ print( maFonction() )
 ```
 
 sortie console :
-```
+```text
 100
 ```
 
@@ -47,7 +47,7 @@ print( maFonction() )
 ```
 
 sortie console :
-```
+```text
 100
 ```
 
@@ -61,8 +61,9 @@ Syntaxe pour récupérer la Valeur du return  d’une fonction :
 maVariableAppelante = leReturnDeCetteFonction()
 ```
 
-| Créons une fonction  MaxVie()  qui remonte la vie de notre Héros à 100. |
-| --- |
+```text
+Créons une fonction  MaxVie()  qui remonte la vie de notre Héros à 100.
+```
 
 Solution :
 
@@ -79,7 +80,7 @@ print(vieHero)
 ```
 
 sortie console :
-```
+```text
 20 
 100
 ```
@@ -108,14 +109,15 @@ print(vieHero)
 ```
 
 sortie console :
-```
+```text
 90
 ```
 
 - Exercice
 
-| \- Créer un héros, celui-ci sera notre combattant (jeu de combat dans la rue) avec une vie avec 100 points de vie. - Notre héros doit subir une ou plusieurs attaque de la part d’un adversaire. - Enfin le héros doit restaurer sa vie à son plein potentiel en mangeant une part de poulet. - Essayez d’exécuter du texte dans les fonctions pour donner un peu de vie à tout cela... |
-| --- |
+```text
+- Créer un héros, celui-ci sera notre combattant (jeu de combat dans la rue) avec une vie avec 100 points de vie. - Notre héros doit subir une ou plusieurs attaque de la part d’un adversaire. - Enfin le héros doit restaurer sa vie à son plein potentiel en mangeant une part de poulet. - Essayez d’exécuter du texte dans les fonctions pour donner un peu de vie à tout cela...
+```
 
 _Solution à la suite… Seulement si vous avez essayé !_
 
@@ -153,7 +155,7 @@ vieHero = VieMaxHero()
 
 sortie console :
 
-```
+```text
 le hero possede 80 pts de vie avant l'attaque, il subit une attaque de 20 pts. Il a désormais 60 pts de vie
 
 le hero possede 60 pts de vie avant l'attaque, il subit une attaque de 20 pts. Il a désormais 40 pts de vie 

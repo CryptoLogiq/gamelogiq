@@ -9,8 +9,9 @@ order: 4
 
 Love2D nous simplifie la tâche pour afficher des formes géométriques dans love.draw() Il existe les fonctions suivantes :
 
-| Drawing geometry  |
-| --- |
+```text
+Drawing geometry
+```
 | [love.graphics.circle](https://love2d.org/wiki/love.graphics.circle) | Dessine un cercle. |
 | [love.graphics.arc](https://love2d.org/wiki/love.graphics.arc) | Dessine un arc de cercle. |
 | [love.graphics.ellipse](https://love2d.org/wiki/love.graphics.ellipse) | Dessine une ellipse. |
@@ -40,12 +41,13 @@ Une ligne c'est quoi ? c'est une droite d'un point A vers un point B. rappel un 
 
 Soit le point **A = {x1 , y2}** Et le point **B = {x2 , y2}** On peut aussi dessiner plusieurs lignes en indiquant plusieurs points à cette fonction : Plus d'infos : [https://fr.wikipedia.org/wiki/Segment\_(math%C3%A9matiques)](https://fr.wikipedia.org/wiki/Segment_\(math%C3%A9matiques\))
 
-| love.graphics.line() love.graphics.line( x1, y1, x2, y2, ... ) **Arguments** [number](https://love2d.org/wiki/number) `x1` La position du premier point dans l'abscisse X (axe horizontale). [number](https://love2d.org/wiki/number) `y1` La position du premier point dans l'ordonnée Y (axe horizontale). [number](https://love2d.org/wiki/number) `x2` La position de l'axe X du second point. [number](https://love2d.org/wiki/number) `y2` La position de l'axe Y du second point. [number](https://love2d.org/wiki/number) `...` Vous pouvez continuer ainsi les successions des points que vous souhaitez. On appelle ceci une [polyligne](https://fr.wikipedia.org/wiki/Ligne_polygonale). |
-| --- |
+```text
+love.graphics.line() love.graphics.line( x1, y1, x2, y2, ... ) **Arguments** [number](https://love2d.org/wiki/number) `x1` La position du premier point dans l'abscisse X (axe horizontale). [number](https://love2d.org/wiki/number) `y1` La position du premier point dans l'ordonnée Y (axe horizontale). [number](https://love2d.org/wiki/number) `x2` La position de l'axe X du second point. [number](https://love2d.org/wiki/number) `y2` La position de l'axe Y du second point. [number](https://love2d.org/wiki/number) `...` Vous pouvez continuer ainsi les successions des points que vous souhaitez. On appelle ceci une [polyligne](https://fr.wikipedia.org/wiki/Ligne_polygonale).
+```
 
 Exemple entre deux points :
 
-```
+```lua
 function love.draw()
    love.graphics.line(
     100, 100, -- 1er  point 
@@ -58,7 +60,7 @@ end
 
 Rendu : l'arguments **...** nous indique qu'on peut dessiner plusieurs points, alors essayons cela =) Exemple d'une suite de Points :
 
-```
+```text
 function love.draw()
    love.graphics.line(
     100, 100, -- 1er  point 
@@ -73,7 +75,7 @@ end
 
 Rendu : Exemple avec une position en mouvement (votre souris) :
 
-```
+```text
 centerX = 400 -- largeur par defaut fenetre love2D fait 800 soit 800/2 = 400
 centerY = 300 -- hauteur par defaut fenetre love2D fait 600 soit 600/2 = 300
 
@@ -111,7 +113,7 @@ Plus d'infos : [https://fr.wikipedia.org/wiki/Rectangle](https://fr.wikipedia.or
 
 love.graphics.rectangle()
 
-```
+```lua
 love.graphics.rectangle( mode, x, y, width, height, segments ) 
 ```
 
@@ -133,7 +135,7 @@ love.graphics.rectangle( mode, x, y, width, height, segments )
 
 Exemple Rectangle :
 
-```
+```lua
 function love.draw()
   
     love.graphics.setColor(1, 1, 1) -- blanc
@@ -177,7 +179,7 @@ Plus d'infos : [https://fr.wikipedia.org/wiki/Cercle](https://fr.wikipedia.org/w
 
 love.graphics.circle()
 
-```
+```lua
 love.graphics.circle( mode, x, y, radius ) 
 ```
 
@@ -197,7 +199,7 @@ love.graphics.circle( mode, x, y, radius )
 
 Exemple Cercles :
 
-```
+```lua
 function love.draw()
   
   
@@ -266,7 +268,7 @@ love.graphics.arc( drawmode, arctype, x, y, radius, angle1, angle2, segments )
 
 **Exemple Arc reprenant comme modèle le croquis de métal gear solid :**
 
-```
+```lua
 love.window.setTitle("love.graphics.arc()")
 
 local hero   =  { x = 400, y = 100 , angle = 0, rayon = 10 , distanceVision = 200, champVision = 25}
@@ -305,7 +307,7 @@ end
 
 Rendu :   Exemple avec les **arcType** : **"pie"** ou **"open"** ou **"closed" :**  
 
-```
+```text
 love.window.setTitle("FaconKode.fr : ArcMode and arcType")
 
 function love.draw()

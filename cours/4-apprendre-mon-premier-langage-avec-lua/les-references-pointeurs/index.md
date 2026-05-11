@@ -18,7 +18,7 @@ print(a)
 
 sortie console :
 
-```
+```text
 table: 0x25c56d98
 ```
 
@@ -38,7 +38,7 @@ print(b)
 ```
 
 sortie console :
-```
+```text
 table: 0x1d566da8
 table: 0x1d566da8
 ```
@@ -62,7 +62,7 @@ print(carte_identification_du_service_restauration_du_3_eme_etage.numero)
 ```
 
 sortie console :
-```
+```text
 001001001
 ```
 
@@ -87,7 +87,7 @@ end
 ```
 
 sortie console :
-```
+```text
 0
 0
 0
@@ -126,7 +126,7 @@ print("Après le soins notre hero dispose de "..hero.vie.." pts de vie.")
 ```
 
 sortie console :
-```
+```text
 Avant le soins notre hero dispose de 10 pts de vie.
 Après le soins notre hero dispose de 100 pts de vie.
 ```
@@ -188,7 +188,7 @@ En résumé la table **b**  ne possède aucune donnée dont elle possède le co
 
 _Observez bien la sortie console :_
 
-```
+```text
 a :
 [1][1] : 1
 [1][2] : 3

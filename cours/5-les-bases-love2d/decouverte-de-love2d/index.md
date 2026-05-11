@@ -19,7 +19,7 @@ Love2D est alors capable d’afficher du texte, de charger des polices, de charg
 
 Toute utilisation de ces nouvelles fonctions se résume simplement à cette syntaxe :
 
-```
+```lua
 love.CeQueJeVeuxUtiliser()
 ```
 

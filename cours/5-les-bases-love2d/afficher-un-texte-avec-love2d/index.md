@@ -19,7 +19,7 @@ Comment créer un Hello World dans la fenêtre Love2D ?
 
 4 - Tapez ceci dans votre fichier main.lua :
 
-```
+```lua
 function love.draw()
  love.graphics.print("Hello World",10,10) -- text, x, y
 end
@@ -47,7 +47,7 @@ Fin - Vous devriez avoir ceci :
 
 **Syntaxe de love.graphics.print()**
 
-```
+```lua
 love.graphics.print( text, x, y)
 ```
 

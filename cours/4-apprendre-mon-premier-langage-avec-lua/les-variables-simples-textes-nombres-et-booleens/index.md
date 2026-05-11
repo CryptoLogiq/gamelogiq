@@ -17,30 +17,32 @@ On ajoute un commentaire en tapant ceci **--**  _\- taper deux fois la touche m
 
 ###### Exemple avec 1 commentaire :
 
-```
+```lua
 -- je suis un commentaire, je ne suis pas pris en compte pendant l'exécution 
 print("Bonjour")
 ```
 
 Sortie console :
 
-| Bonjour |
-| --- |
+```text
+Bonjour
+```
 
 ###### On peut aussi le mettre après du code exécuté :
 
-```
+```lua
 print("Bonjour") -- je suis un commentaire !
 ```
 
 Sortie console :
 
-| Bonjour |
-| --- |
+```text
+Bonjour
+```
 
 ##### Exemple démonstration :
 
-```
+```lua
 -- la fonction print() sert à écrire dans la console
 print("Bonjour, vous allez bien ?") -- Question
 
@@ -53,8 +55,9 @@ print("Oui merci, et vous ?") -- Réponse
 
 Sortie console :
 
-| Bonjour, vous allez bien ? Oui merci, et vous ? |
-| --- |
+```text
+Bonjour, vous allez bien ? Oui merci, et vous ?
+```
 
 Plutôt pratique non ?
 
@@ -74,14 +77,15 @@ Toutes ces variables vont donner vie à notre code et surtout les futurs jeux qu
 
 Pour créer une variable et lui attribuer une valeur il faut procéder comme ceci :
 
-```
+```lua
  maVariable = valeur
 ```
 
 Se lit :
 
-| ma variable du nom **maVariable** _vaut_cette **valeur** |
-| --- |
+```text
+ma variable du nom **maVariable** _vaut_cette **valeur**
+```
 
 Lorsque le programme exécutera le code, il stockera alors cette **variable** et sa **valeur** en **mémoire**.
 
@@ -103,13 +107,13 @@ Les nombres peuvent être stockés dans des variables de  **type(number)**  ce
 
 ###### Syntaxe :
 
-```
+```lua
 maVariable = 1
 ```
 
 ###### Exemple démonstration :
 
-```
+```lua
 jour = 27
 mois = 06
 annee = 1962
@@ -121,12 +125,15 @@ print(annee)
 
 Sortie console :
 
-| 27   06   1962 |
-| --- |
+```text
+27
+06
+1962
+```
 
 ### Print plusieurs variables sur une seule et meme ligne
 
-```
+```lua
 jour = 27
 mois = 06
 annee = 1962
@@ -134,8 +141,9 @@ annee = 1962
 print(jour, mois, annee)
 ```
 
-| 27 06 1962 |
-| --- |
+```text
+27 06 1962
+```
 
 Ceci est bien pratique, surtout lorsque l'on veut trouver une erreur ou faire des traces dans la console compréhensible.
 
@@ -151,7 +159,7 @@ Pour un nombre décimal (float) on utilise un point  .  pour désigner un nom
 
 Cela pour deux raisons, la première, car les virgules aux US sont utilisées pour séparer les milliers et que dans le langage LUA la virgule  
 
-```
+```text
 ,
 ```
 
@@ -159,15 +167,16 @@ Cela pour deux raisons, la première, car les virgules aux US sont utilisées p
 
 #### Le piège à éviter :
 
-```
+```lua
 pi = 3,14 
 print(pi)
 ```
 
 Sortie Console :
 
-| 3 |
-| --- |
+```text
+3
+```
 
 14 est considéré comme étant une autre instruction et elle est donc mise de côté, car la virgule indique une seconde instruction après celle-ci.
 
@@ -175,7 +184,7 @@ Alors `pi = 3` et `14` est attendu pour une autre instruction (elle attend une a
 
 _il faut donc TOUJOURS utiliser un point_
 
-```
+```text
 .
 ```
 
@@ -183,19 +192,20 @@ _il faut donc TOUJOURS utiliser un point_
 
 ###### Correction :
 
-```
+```lua
 pi = 3.14 
 print(pi)
 ```
 
 Sortie console :
 
-| 3.14 |
-| --- |
+```text
+3.14
+```
 
 ### On peut aussi effectuer des calculs entre plusieurs variables numériques :
 
-```
+```lua
 longueur = 5
 largeur = 2
 -- Rappel : calcul d'une surface = L*l
@@ -205,12 +215,13 @@ print(surface)
 
 Sortie console :
 
-| 10 |
-| --- |
+```text
+10
+```
 
 ###### un autre exemple :
 
-```
+```lua
 miles = 50
 vitesse = miles / 0.6215
 print(miles)
@@ -219,14 +230,15 @@ print(vitesse)
 
 Sortie console :
 
-| 50 80.450522928399 |
-| --- |
+```text
+50 80.450522928399
+```
 
 Le mile et le km (kilomètre) sont deux unités de mesures de longueur dans le système métrique. Pour convertir une longueur en mile en kilomètre, on multiplie par 1,609 ou on divise par 0,6215
 
 ###### encore autre exemple :
 
-```
+```lua
 poids = 72.4
 taille = 1.82
 imc = poids / (taille*taille)
@@ -235,8 +247,9 @@ print(imc)
 
 Sortie console :
 
-| 21.857263615505 |
-| --- |
+```text
+21.857263615505
+```
 
 _imc = Indice de masse corporelle, formule = poids(kg) / taille²(m²)_
 
@@ -261,7 +274,7 @@ source : [https://fr.wikipedia.org/wiki/Indice\_de\_masse\_corporelle](https://w
 
 ###### Exemple :
 
-```
+```lua
 x = 2
 y = 3
 print("x = 2 et y = 3")
@@ -283,26 +296,41 @@ print( -x )
 
 Sortie console :
 
-| x = 2 et y = 3   \-- addition : x + y   5   \-- soustraction : x - y   \-1   \-- multiplication : x \* y   6   \-- division : x / y   0.66666666666667   \-- modulo : x % y   2   \-- élévation : x ^ y   8   \-- négation : -x   \-2 |
-| --- |
+```text
+x = 2 et y = 3
+-- addition : x + y
+5
+-- soustraction : x - y
+-1
+-- multiplication : x * y
+6
+-- division : x / y
+0.66666666666667
+-- modulo : x % y
+2
+-- élévation : x ^ y
+8
+-- négation : -x
+-2
+```
 
 ## Les variables de Textes (string)
 
 Les variables de textes  **type(string)**  sont enfermés dans des guillemets, via la touche 3.
 
-```
+```text
 " "
 ```
 
 ###### Syntaxe :
 
-```
+```lua
 maVariable = "mon texte"
 ```
 
 ###### Exemple démonstration :
 
-```
+```lua
 nom = "Nolan"
 prenom = "Bushnell"
 
@@ -311,14 +339,15 @@ print(nom, prenom)
 
 Sortie console :
 
-| Nolan Bushnell |
-| --- |
+```text
+Nolan Bushnell
+```
 
 Une variable string peut contenir du texte et donc des phrases complexe.
 
 ###### Exemple avec une Phrase :
 
-```
+```lua
 monTexte = "Nolan Kay Bushnell, est né le 5 février 1943 !"
 
 print(monTexte)
@@ -326,12 +355,13 @@ print(monTexte)
 
 Sortie console :
 
-| Nolan Kay Bushnell, est né le 5 février 1943 ! |
-| --- |
+```text
+Nolan Kay Bushnell, est né le 5 février 1943 !
+```
 
 ##### Les espaces sont aussi des caractères :
 
-```
+```lua
 nom = "Nolan"
 prenom = "   Bushnell"
 
@@ -341,8 +371,9 @@ print(prenom)
 
 Sortie console :
 
-| Nolan Bushnell |
-| --- |
+```text
+Nolan Bushnell
+```
 
 ## Les variables Booléennes (boolean) : Vrai / Faux
 
@@ -350,39 +381,41 @@ Un booléen ou bool en anglais, est un interrupteur qui sert à contrôler une c
 
 ##### Syntaxe  VRAI :
 
-```
+```lua
 maVariable = true
 ```
 
 ##### Syntaxe  FAUX :
 
-```
+```lua
 maVariable = false
 ```
 
 ###### Exemple démonstration VRAI :
 
-```
+```lua
 monBooleen= true
 print(monBooleen)
 ```
 
 Sortie console :
 
-| true |
-| --- |
+```text
+true
+```
 
 ###### Exemple démonstration FAUX :
 
-```
+```lua
 monBooleen = false
 print(monBooleen)
 ```
 
 Sortie console :
 
-| false |
-| --- |
+```text
+false
+```
 
 ## Les variables vides (nil)
 
@@ -400,40 +433,42 @@ C’est utile pour effectuer des test logique, qu’on abordera plus tard égale
 
 ##### Syntaxe :
 
-```
+```lua
 maVariable = nil
 
 ```
 
 ###### Exemple avec nil :
 
-```
+```lua
 maVariableVide = nil
 print(maVariableVide)
 ```
 
 Sortie console :
 
-| nil |
-| --- |
+```text
+nil
+```
 
 ##### Syntaxe sans rien :
 
-```
+```text
 maVariable
 ```
 
 ###### Exemple sans rien :
 
-```
+```lua
 maVariableVide
 print(maVariableVide)
 ```
 
 Sortie console :
 
-| nil |
-| --- |
+```text
+nil
+```
 
 
 
@@ -463,14 +498,15 @@ Puis celles que nous n’aborderons pas dans les bases… (niveau avancées) :
 
 #### Exercice TP : 
 
-| Créer et Imprimer chacun des types de variables que nous venons de voir ! type texte (string) type nombres (number) type décimal (number) type booléen (boolean), une de valeur Vrai et une autre avec une valeur Fausse type nil (vide) |
-| --- |
+```text
+Créer et Imprimer chacun des types de variables que nous venons de voir ! type texte (string) type nombres (number) type décimal (number) type booléen (boolean), une de valeur Vrai et une autre avec une valeur Fausse type nil (vide)
+```
 
 
 
 #### Solution TP :
 
-```
+```lua
 monAge = 35
 maTaille = 1.85
 monNom = “Cédric”
@@ -488,8 +524,14 @@ print(nomDeMaFemme)
 
 sortie console :
 
-| 35   1.85   Cédric   false   true   nil |
-| --- |
+```text
+35
+1.85
+Cédric
+false
+true
+nil
+```
 
 Si vous avez réussi tant mieux, sinon, relisez attentivement la solution pour comprendre vos erreurs éventuelles et retentez ensuite l’exercice sans vous aider (sans copier).
 
@@ -501,7 +543,7 @@ Copier un code ne sert à rien, il vous faut le comprendre et le taper vous-mêm
 
 ##### Comme on peut séparer nos print avec une virgule pour plusieurs isntructions, on peut aussi assigner plusieurs variables sur une même ligne :
 
-```
+```lua
 x, y, z = 10, 20, 15
 print(x)
 print(y)
@@ -511,8 +553,12 @@ print(x, y, z)
 
 sortie console :
 
-| 10   20   15   10 20 15 |
-| --- |
+```text
+10
+20
+15
+10 20 15
+```
 
 _la virgule  ,  sépare les variables !_
 
@@ -520,13 +566,13 @@ _la virgule  ,  sépare les variables !_
 
 le chunck c'est le point virgule :
 
-```
+```text
 ;
 ```
 
 exemple :
 
-```
+```lua
 x = 10
 
 y = 20
@@ -538,14 +584,15 @@ print(x); print(y); print(z); print(x + y + z)
 
 sortie console :
 
-| 10 20 15 45 |
-| --- |
+```text
+10 20 15 45
+```
 
 Le point virgule  ;  sépare les instructions ! L'unité d'exécution  ;  de Lua est appelée « chunk ».
 
 ##### On peut écrire des commentaires sur plusieurs lignes :
 
-```
+```lua
 --[[
 ceci est un commentaire
 sur plusieurs
@@ -561,7 +608,7 @@ La syntaxe --\[\[  \]\]-- ouvre et ferme un commentaire sur une ou plusieurs l
 
 ##### On peut connaître le type d'une variable :
 
-```
+```lua
 monChiffre = 7
 monTexte = "Sept est mon chiffre porte bonheur"
 maChance = true
@@ -575,8 +622,12 @@ print(type(monGain))
 
 sortie console :
 
-| number   string   boolean   nil |
-| --- |
+```text
+number
+string
+boolean
+nil
+```
 
 La fonction **type()** renvois le type d'une variable.
 
@@ -594,7 +645,7 @@ Dans d’autres langages, les variables sont d’abord typés avant d’avoir un
 
 exemple :
 
-```
+```lua
 maVariable = "test"
 print(type(maVariable))
 
@@ -609,8 +660,11 @@ print(type(maVariable))
 
 sortie console :
 
-| string   number   boolean |
-| --- |
+```text
+string
+number
+boolean
+```
 
 Dans l'exemple la variable _**maVariable**_ change de type à volonté…
 
